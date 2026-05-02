@@ -2,9 +2,27 @@
 
 <table width="100%">
   <tr>
-    <td width="40%">
-      <img align="center" src="https://zane-nostalgia.kiyo-n-zane.com/scenes/beats/api?height=200&width=2000&bannerText=Beats" />
-    </td>
+<td width="40%" valign="top">
+
+  <h2>👋 Hi, I'm DaFi-1</h2>
+
+  <p>💻 Developer | 🚀 Builder | 📚 Learner</p>
+
+  <hr>
+
+  <h3>📌 Navigation</h3>
+  <ul>
+    <li>Stats</li>
+    <li>Projects</li>
+    <li>Contact</li>
+  </ul>
+
+  <hr>
+
+  <h3>🌐 Links</h3>
+  <p>GitHub / LinkedIn / Email</p>
+
+</td>
     <td width="60%">
       <img src="https://ghstats.dev/api/card?username=DaFi-1&theme=transparent"             width="100%" />
       <img src="https://ghstats.dev/api/langs?username=DaFi-1&theme=transparent&layout=bar" width="100%" />

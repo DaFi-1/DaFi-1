@@ -10,18 +10,10 @@
   <h3>📁 Projects Overview</h3>
 <ul>
   <li><a href="https://github.com/DaFi-1/DaFi-1/blob/main/DaFi.md">Ebooks</a> <span>(2 projects)</span></li>
-  <li><a href="#">DevOps</a> <span>(0 projects)</span></li>
-  <li><a href="#">Backend</a> <span>(1 projects)</span></li>
-  <li><a href="#">FrontEnd</a> <span>(0 projects)</span></li>
-  <li><a href="#">Deep Learning</a> <span>(1 projects)</span></li>
   <li><a>ALL</a> <span>(4 projects)</span></li>
 </ul>
 <h3>📁 Certifications</h3>
 <ul>
-  <li><a href="#">DevOps</a> <b>(0)</b> • ⏱ 0h</li>
-  <li><a href="#">Backend</a> <b>(0)</b> • ⏱ 0h</li>
-  <li><a href="#">FrontEnd</a> <b>(0)</b> • ⏱ 0h</li>
-  <li><a href="#">Deep Learning</a> <b>(0)</b> • ⏱ 0h</li>
   <li><a>ALL</a> <b>(0)</b> • ⏱ 0h</li>
 </ul>
 </td>

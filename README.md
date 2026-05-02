@@ -13,7 +13,7 @@
   </ul>
   <h3>🌐 Links</h3>
   <p>
-   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Lua/lua1.svg"/>
+   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Lua/lua1.svg"width="30px"/>
   </p>
 </td>
     <td width="60%">

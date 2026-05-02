@@ -7,6 +7,9 @@
 <a href="https://github.com/rowkav09/GitHub-profile-stats">
   <img src="https://ghstats.dev/api/langs?username=DaFi-1&theme=transparent&layout=bar" />
 </a>
+<a href="https://github.com/rowkav09/GitHub-profile-stats">
+  <img src="https://ghstats.dev/api/langs?username=DaFi-1&theme=transparent&layout=bar" />
+</a>
     </td>
   </tr>
 </table>

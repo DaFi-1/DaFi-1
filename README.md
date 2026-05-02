@@ -2,27 +2,27 @@
 
 <table width="100%">
   <tr>
-<td width="40%" valign="top">
+    <td width="40%" valign="top">
 
-  <h2>👋 Hi, I'm DaFi-1</h2>
+      <h2>👋 Hi, I'm DaFi-1</h2>
 
-  <p>💻 Developer | 🚀 Builder | 📚 Learner</p>
+      <p>💻 Developer | 🚀 Builder | 📚 Learner</p>
 
-  <hr>
+      <hr>
 
-  <h3>📌 Navigation</h3>
-  <ul>
-    <li>Stats</li>
-    <li>Projects</li>
-    <li>Contact</li>
-  </ul>
+      <h3>📌 Navigation</h3>
+      <ul>
+        <li>Stats</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
 
-  <hr>
+      <hr>
 
-  <h3>🌐 Links</h3>
-  <p>GitHub / LinkedIn / Email</p>
+      <h3>🌐 Links</h3>
+      <p>GitHub / LinkedIn / Email</p>
 
-</td>
+    </td>
     <td width="60%">
       <img src="https://ghstats.dev/api/card?username=DaFi-1&theme=transparent"             width="100%" />
       <img src="https://ghstats.dev/api/langs?username=DaFi-1&theme=transparent&layout=bar" width="100%" />

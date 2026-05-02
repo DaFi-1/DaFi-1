@@ -10,19 +10,19 @@
   <h3>📁 Projects Overview</h3>
 <ul>
   <li><a href="#">Ebooks</a> <span>(2 projects)</span></li>
-  <li><a href="#">DevOps</a> <span>(4 projects)</span></li>
-  <li><a href="#">Backend</a> <span>(6 projects)</span></li>
-  <li><a href="#">FrontEnd</a> <span>(3 projects)</span></li>
-  <li><a href="#">Deep Learning</a> <span>(5 projects)</span></li>
-  <li><a>ALL</a> <span>(800 projects)</span></li>
+  <li><a href="#">DevOps</a> <span>(0 projects)</span></li>
+  <li><a href="#">Backend</a> <span>(1 projects)</span></li>
+  <li><a href="#">FrontEnd</a> <span>(0 projects)</span></li>
+  <li><a href="#">Deep Learning</a> <span>(1 projects)</span></li>
+  <li><a>ALL</a> <span>(4 projects)</span></li>
 </ul>
 <h3>📁 Certifications</h3>
 <ul>
-  <li><a href="#">DevOps</a> <b>(4)</b> • ⏱ 200h</li>
-  <li><a href="#">Backend</a> <b>(6)</b> • ⏱ 180h</li>
-  <li><a href="#">FrontEnd</a> <b>(3)</b> • ⏱ 120h</li>
-  <li><a href="#">Deep Learning</a> <b>(5)</b> • ⏱ 300h</li>
-  <li><a>ALL</a> <b>(40)</b> • ⏱ 1,300h</li>
+  <li><a href="#">DevOps</a> <b>(0)</b> • ⏱ 0h</li>
+  <li><a href="#">Backend</a> <b>(0)</b> • ⏱ 0h</li>
+  <li><a href="#">FrontEnd</a> <b>(0)</b> • ⏱ 0h</li>
+  <li><a href="#">Deep Learning</a> <b>(0)</b> • ⏱ 0h</li>
+  <li><a>ALL</a> <b>(0)</b> • ⏱ 0h</li>
 </ul>
 </td>
     <td width="70%">

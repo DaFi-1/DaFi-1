@@ -14,6 +14,7 @@
   <h3>🌐 Links</h3>
   <p>
    <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Lua/lua1.svg"width="50px"/>
+   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Lua/lua1.svg"width="50px"/>
   </p>
 </td>
     <td width="60%">

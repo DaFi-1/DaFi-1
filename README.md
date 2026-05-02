@@ -15,7 +15,7 @@
     <li>DevOps</li>
     <li>Backend</li>
     <li>FrontEnd</li>
-    <li>Deep Learning Engineer</li>
+    <li>Deep Learning</li>
   </ul>
 </td>
     <td width="60%">

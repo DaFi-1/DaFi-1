@@ -17,7 +17,7 @@
 </ul>
 <h4>📁 Certifications — Total: 45</h4>
 <ul>
-  <li><a href="#">DevOps</a> <b>(4)</b><b>Time: 200H</b></li>
+  <li><a href="#">DevOps</a> <b>(4)</b><b>200 Hours</b></li>
   <li><a href="#">Backend</a> <b>(6)</b></li>
   <li><a href="#">FrontEnd</a> <b>(3)</b></li>
   <li><a href="#">Deep Learning</a> <b>(5)</b></li>

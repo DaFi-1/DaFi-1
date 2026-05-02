@@ -15,6 +15,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="https://via.placeholder.com/1200x400.png?text=TaskNvim+-+Neovim+Task+Manager" width="100%" />
+</p>
+
 
 
 

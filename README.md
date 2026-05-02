@@ -1,5 +1,5 @@
 
-<table style="padding:0px;">
+<table style="padding:0px;border-collapse:collapse;">
   <tr>
     <td>
 

@@ -3,13 +3,12 @@
 <table width="100%">
   <tr>
     <td width="40%">
-        <img align="center" src="https://zane-nostalgia.kiyo-n-zane.com/scenes/meteors/api?height=200&width=2000&rotation=30&density=15&bannerText=Meteors+Shower" />
+        <img align="top" src="https://zane-nostalgia.kiyo-n-zane.com/scenes/meteors/api?height=200&width=2000&rotation=30&density=15&bannerText=Meteors+Shower" />
         <img align="center" src="https://zane-nostalgia.kiyo-n-zane.com/scenes/beats/api?height=200&width=2000&bannerText=Beats" />
     </td>
     <td width="60%">
       <img src="https://ghstats.dev/api/card?username=DaFi-1&theme=transparent"             width="100%" />
       <img src="https://ghstats.dev/api/langs?username=DaFi-1&theme=transparent&layout=bar" width="100%" />
-      <img align="center" src="https://github-pr-stats-five.vercel.app/api/github-pr-stats?username=DaFi-1" />
     </td>
   </tr>
 </table>

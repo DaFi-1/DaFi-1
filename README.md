@@ -5,16 +5,14 @@
       <img src="https://ghstats.dev/api/langs?username=DaFi-1&theme=transparent&layout=bar" />
     </td>
     <td width="50%">
-<a href="https://github.com/rowkav09/GitHub-profile-stats">
-  <img src="https://ghstats.dev/api/langs?username=DaFi-1&theme=transparent&layout=bar" />
-</a>
+
 <a href="https://github.com/rowkav09/GitHub-profile-stats">
   <img src="https://ghstats.dev/api/langs?username=DaFi-1&theme=transparent&layout=bar" />
 </a>
     </td>
   </tr>
 </table>
-
+![My PR Stats](https://github-pr-stats-five.vercel.app/api/github-pr-stats?username=DaFi-1)
 
 
 

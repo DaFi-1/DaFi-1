@@ -15,12 +15,12 @@
   <li><a href="#">FrontEnd</a> <span>(3 projects)</span></li>
   <li><a href="#">Deep Learning</a> <span>(5 projects)</span></li>
 </ul>
-  <h4>📁 Certifications - total 45</h3>
+<h4>📁 Certifications — Total: 45</h4>
 <ul>
-  <li><a href="#">DevOps</a> <span>(4 projects)</span></li>
-  <li><a href="#">Backend</a> <span>(6 projects)</span></li>
-  <li><a href="#">FrontEnd</a> <span>(3 projects)</span></li>
-  <li><a href="#">Deep Learning</a> <span>(5 projects)</span></li>
+  <li>⚙️ <a href="#">DevOps</a> <b>(4)</b></li>
+  <li>🧠 <a href="#">Backend</a> <b>(6)</b></li>
+  <li>🎨 <a href="#">FrontEnd</a> <b>(3)</b></li>
+  <li>🤖 <a href="#">Deep Learning</a> <b>(5)</b></li>
 </ul>
 </td>
     <td width="60%">

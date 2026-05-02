@@ -3,8 +3,6 @@
 <table width="100%">
   <tr>
 <td width="40%" valign="top">
-  <h3 align="center">👋 Hi, I'm DaFi</h2>
-  <p align="center">Backend | FrontEnd | DevOps | Vibe Coder</p>
   <h4>📌 The best Projects</h3>
   <ul>
     <li><a href="https://github.com/DaFi-1/tasknvim">tasknvim</a> - ⭐13</li>

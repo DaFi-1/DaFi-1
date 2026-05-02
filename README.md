@@ -3,9 +3,9 @@
 <table width="100%">
   <tr>
 <td width="30%" valign="top">
-  <h4>📌 The best Projects</h3>
+  <h3>📌 The best Projects</h3>
   <ul>
-    <li><a href="https://github.com/DaFi-1/tasknvim">tasknvim</a> - ⭐13</li>
+    <li><a href="https://github.com/DaFi-1/tasknvim">tasknvim</a> - ⭐14</li>
   </ul>
   <h4>📁 Projects Overview</h3>
 <ul>

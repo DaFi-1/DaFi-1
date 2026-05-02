@@ -1,26 +1,13 @@
 <table width="100%">
   <tr>
     <td width="40%">
-      <img src="https://ghstats.dev/api/card?username=DaFi-1&theme=tokyonight" width="100%" />
+      <img src="https://ghstats.dev/api/card?username=DaFi-1&theme=transparent" width="100%" />
     </td>
     <td width="50%">
       <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=DaFi-1&layout=compact&theme=tokyonight" width="100%" />
     </td>
   </tr>
 </table>
-
-<p align="center">
-  <a href="https://github.com/DaFi-1/tasknvim">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=DaFi-1&repo=tasknvim&theme=tokyonight" />
-  </a>
-</p>
-  <img src="https://github-readme-stats.vercel.app/api?username=devpla&show_icons=true&theme=material-palenight&hide_border=true&bg_color=20232a&icon_color=E3E3E3A8&text_color=fff&title_color=918FE0&count_private=true" width=48% />
-
-<p align="center">
-  <img src="https://via.placeholder.com/1200x400.png?text=TaskNvim+-+Neovim+Task+Manager" width="100%" />
-</p>
-
-
 
 
 

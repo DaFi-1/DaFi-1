@@ -14,7 +14,10 @@
 <a href="https://github.com/DaFi-1/tasknvim">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=DaFi-1&repo=tasknvim&theme=github_dark" />
 </a>
-
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DaFi-1&repo=tasknvim&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DaFi-1&repo=outro-repo&theme=tokyonight" />
+</p>
 
 
 

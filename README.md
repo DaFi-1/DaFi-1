@@ -16,6 +16,78 @@
     </td>
   </tr>
 </table>
+<table width="100%">
+  <tr>
+    <td width="40%" valign="top">
+
+      <table width="100%">
+        <tr>
+          <td>
+
+# 👋 Hello, I'm DaFi-1
+
+💻 Developer passionate about building things  
+🚀 Focused on Neovim, automation and backend  
+📚 Always learning and improving  
+
+---
+
+## ⚡ Quick Info
+
+- 🔭 Working on: Neovim plugins  
+- 🌱 Learning: backend & system design  
+- 🎯 Goal: become a top-tier software engineer  
+- ⚡ Fun fact: I love productivity tools  
+
+---
+
+## 📌 Navigation
+
+- 🏠 Home  
+- 📊 GitHub Stats  
+- 🧠 About Me  
+- 🚀 Projects  
+- 📫 Contact  
+
+---
+
+## 🌐 Socials
+
+- GitHub: https://github.com/DaFi-1  
+- LinkedIn: https://linkedin.com  
+- Email: your@email.com  
+
+          </td>
+        </tr>
+      </table>
+
+    </td>
+
+    <!-- COLUNA DIREITA -->
+    <td width="60%" valign="top">
+
+      <table width="100%">
+        <tr>
+          <td>
+
+<img src="https://ghstats.dev/api/card?username=DaFi-1&theme=transparent" width="100%" />
+
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+
+<img src="https://ghstats.dev/api/langs?username=DaFi-1&theme=transparent&layout=bar" width="100%" />
+
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+
 
 
 

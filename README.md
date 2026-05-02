@@ -18,11 +18,11 @@
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=DaFi-1&repo=tasknvim&theme=tokyonight" />
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=DaFi-1&repo=outro-repo&theme=tokyonight" />
 </p>
-
-
-
-
-
+<img align="center" src="https://zane-nostalgia.kiyo-n-zane.com/scenes/404/api?height=200&width=2000&density=6&bannerText=404" />
+<img align="center" src="https://zane-nostalgia.kiyo-n-zane.com/scenes/meteors/api?height=200&width=2000&rotation=30&density=15&bannerText=Meteors+Shower" />
+<img align="center" src="https://zane-nostalgia.kiyo-n-zane.com/scenes/beats/api?height=200&width=2000&bannerText=Beats" />
+<img align="center" src="https://github-pr-stats-five.vercel.app/api/github-pr-stats?username=DaFi-1" />
+![My PR Stats](https://github-pr-stats-five.vercel.app/api/github-pr-stats?username=DaFi-1)
 
 
 

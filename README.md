@@ -8,3 +8,5 @@
     </td>
   </tr>
 </table>
+
+<img src="https://via.placeholder.com/1200x500.png?text=TaskNvim+Plugin" width="100%" />

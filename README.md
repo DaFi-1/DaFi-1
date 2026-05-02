@@ -1,6 +1,6 @@
 <table width="100%">
   <tr>
-    <td width="50%">
+    <td width="40%">
       <img src="https://ghstats.dev/api/card?username=DaFi-1&theme=tokyonight" width="100%" />
     </td>
     <td width="50%">

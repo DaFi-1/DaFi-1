@@ -7,7 +7,7 @@
   <ul>
     <li><a href="https://github.com/DaFi-1/tasknvim">tasknvim</a> - ⭐13</li>
   </ul>
-  <h4>📁 Projects Overview - Total - Hidden</h3>
+  <h4>📁 Projects Overview</h3>
 <ul>
   <li><a href="#">Ebooks</a> <span>(2 projects)</span></li>
   <li><a href="#">DevOps</a> <span>(4 projects)</span></li>
@@ -16,7 +16,7 @@
   <li><a href="#">Deep Learning</a> <span>(5 projects)</span></li>
   <li><a href="#">All</a> <span>(800 projects)</span></li>
 </ul>
-<h4>📁 Certifications — Total - Hours</h4>
+<h4>📁 Certifications</h4>
 <ul>
   <li><a href="#">DevOps</a> <b>(4)</b> • ⏱ 200h</li>
   <li><a href="#">Backend</a> <b>(6)</b> • ⏱ 180h</li>

@@ -9,18 +9,6 @@
   </ul>
   <h3>📁 Projects Overview</h3>
 <ul>
-<details>
-<summary>📚 Ebooks (2 projects)</summary>
-  <a href="#">Ebooks</a> <span>(2 projects)</span>
-  <a href="#">Ebooks</a> <span>(2 projects)</span>
-  <a href="#">Ebooks</a> <span>(2 projects)</span>
-  <a href="#">Ebooks</a> <span>(2 projects)</span>
-  <a href="#">Ebooks</a> <span>(2 projects)</span>
-  <a href="#">Ebooks</a> <span>(2 projects)</span>
-  <a href="#">Ebooks</a> <span>(2 projects)</span>
-  <a href="#">Ebooks</a> <span>(2 projects)</span>
-</details>
-<details>
   <li><a href="#">Ebooks</a> <span>(2 projects)</span></li>
   <li><a href="#">DevOps</a> <span>(4 projects)</span></li>
   <li><a href="#">Backend</a> <span>(6 projects)</span></li>

@@ -9,4 +9,40 @@
   </tr>
 </table>
 
-<img src="https://via.placeholder.com/1200x500.png?text=TaskNvim+Plugin" width="100%" />
+<p align="center">
+  <a href="https://github.com/DaFi-1/tasknvim">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=DaFi-1&repo=tasknvim&theme=tokyonight" />
+  </a>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

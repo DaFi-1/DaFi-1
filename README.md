@@ -12,3 +12,9 @@
 
 ## 🐍 Contribution Snake
 ![snake gif](https://github.com/DaFi-1/DaFi-1/blob/output/github-contribution-grid-snake.svg)
+
+## 📊 GitHub Stats
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=DaFi-1&show_icons=true&theme=tokyonight)
+
+## 📈 Top Languages
+![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=DaFi-1&layout=compact&theme=tokyonight)

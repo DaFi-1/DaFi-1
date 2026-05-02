@@ -5,11 +5,15 @@
 <td width="40%" valign="top">
   <h2 align="center">👋 Hi, I'm DaFi</h2>
   <p align="center">Backend | FrontEnd | DevOps | Vibe Coder</p>
-  <h3>📌 Navigation</h3>
+  <h3>📌 The best Projects</h3>
   <ul>
-    <li>Stats</li>
-    <li>Projects</li>
-    <li>Contact</li>
+    <li>tasknvim</li>
+  </ul>
+  <h3>Projects</h3>
+  <ul>
+    <li>Backend</li>
+    <li>FrontEnd</li>
+    <li>DevOps</li>
   </ul>
   <h3>🌐 Links</h3>
   <p>

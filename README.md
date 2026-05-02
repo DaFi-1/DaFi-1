@@ -3,26 +3,16 @@
 <table width="100%">
   <tr>
 <td width="40%" valign="top">
-
   <h1 align="center">👋 Hi, I'm DaFi</h1>
-  <h1 align="center">Portfolio</h1>
-  <p>💻 Developer | 🚀 Builder | 📚 Learner</p>
-  <p>💻 Developer | 🚀 Builder | 📚 Learner</p>
-
-  <hr>
-
+  <p>Backend | FrontEnd | DevOps</p>
   <h3>📌 Navigation</h3>
   <ul>
     <li>Stats</li>
     <li>Projects</li>
     <li>Contact</li>
   </ul>
-
-  <hr>
-
   <h3>🌐 Links</h3>
   <p>GitHub / LinkedIn / Email</p>
-
 </td>
     <td width="60%">
       <img src="https://ghstats.dev/api/card?username=DaFi-1&theme=transparent"             width="100%" />

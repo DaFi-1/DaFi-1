@@ -2,7 +2,7 @@
 
 <table width="100%">
   <tr>
-<td width="40%" valign="top">
+<td width="39%" valign="top">
   <h4>📌 The best Projects</h3>
   <ul>
     <li><a href="https://github.com/DaFi-1/tasknvim">tasknvim</a> - ⭐13</li>
@@ -25,7 +25,7 @@
   <li><a>ALL</a> <b>(40)</b> • ⏱ 1,300h</li>
 </ul>
 </td>
-    <td width="60%">
+    <td width="61%">
       <img src="https://ghstats.dev/api/card?username=DaFi-1&theme=transparent"             width="100%" />
       <img src="https://ghstats.dev/api/langs?username=DaFi-1&theme=transparent&layout=bar" width="100%" />
     </td>

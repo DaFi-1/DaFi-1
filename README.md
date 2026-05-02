@@ -1,5 +1,5 @@
 
-<table>
+<table style="padding:0px;">
   <tr>
     <td>
 

@@ -4,6 +4,9 @@
   <tr>
     <td width="40%">
         <img align="top" src="https://zane-nostalgia.kiyo-n-zane.com/scenes/meteors/api?height=200&width=2000&rotation=30&density=15&bannerText=Meteors+Shower" />
+        <p align="center">
+  <img src="https://zane-nostalgia.kiyo-n-zane.com/scenes/meteors/api?height=200&width=2000&rotation=30&density=15&bannerText=Meteors+Shower" />
+</p>
         <img align="center" src="https://zane-nostalgia.kiyo-n-zane.com/scenes/beats/api?height=200&width=2000&bannerText=Beats" />
     </td>
     <td width="60%">

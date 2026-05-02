@@ -9,7 +9,6 @@
   </ul>
   <h3>📁 Projects Overview</h3>
 <ul>
-  <li><a href="https://github.com/DaFi-1/DaFi-1/blob/main/DaFi.md">Ebooks</a> <span>(2 projects)</span></li>
   <li><a>ALL</a> <span>(4 projects)</span></li>
 </ul>
 <h3>📁 Certifications</h3>
@@ -24,17 +23,6 @@
   </tr>
 </table>
 
-
-
-
-
-
-
-
-
-
-
-
 <h3 id="project-overview">📁 Projects Overview</h3>
 <div style="margin-left: 1.5em;">
 
@@ -43,6 +31,12 @@
 <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Concluído | ❌ Em Desenvolvimento</p>
 <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
 <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Ebook-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
+<tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-TDD-Desenvolvimento-Guiado-por-Test.git">Ebook-TDD-Desenvolvimento-Guiado-por-Test</a></td><td style="padding:2px 4px;">✅</td></tr>
+<tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-TDD-Desenvolvimento-Guiado-por-Test.git">Ebook-TDD-Desenvolvimento-Guiado-por-Test</a></td><td style="padding:2px 4px;">✅</td></tr>
+<tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-TDD-Desenvolvimento-Guiado-por-Test.git">Ebook-TDD-Desenvolvimento-Guiado-por-Test</a></td><td style="padding:2px 4px;">✅</td></tr>
+<tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-TDD-Desenvolvimento-Guiado-por-Test.git">Ebook-TDD-Desenvolvimento-Guiado-por-Test</a></td><td style="padding:2px 4px;">✅</td></tr>
+<tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-TDD-Desenvolvimento-Guiado-por-Test.git">Ebook-TDD-Desenvolvimento-Guiado-por-Test</a></td><td style="padding:2px 4px;">✅</td></tr>
+<tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-TDD-Desenvolvimento-Guiado-por-Test.git">Ebook-TDD-Desenvolvimento-Guiado-por-Test</a></td><td style="padding:2px 4px;">✅</td></tr>
 <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-TDD-Desenvolvimento-Guiado-por-Test.git">Ebook-TDD-Desenvolvimento-Guiado-por-Test</a></td><td style="padding:2px 4px;">✅</td></tr>
 <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="#">Project 2</a></td><td style="padding:2px 4px;">❌</td></tr>
 </table>

@@ -4,9 +4,7 @@
   <tr>
 <td width="40%" valign="top">
 
-  <h3>👋 Hi, I'm DaFi</h3>
-  <h2>👋 Hi, I'm DaFi-1</h2>
-  <h2>👋 Hi, I'm DaFi-1</h2>
+  <h2>-- 👋 Hi, I'm DaFi-1 --</h2>
 
   <p>💻 Developer | 🚀 Builder | 📚 Learner</p>
 

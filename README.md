@@ -11,9 +11,11 @@
   </ul>
   <h3>Projects</h3>
   <ul>
+    <li>Ebooks</li>
+    <li>DevOps</li>
     <li>Backend</li>
     <li>FrontEnd</li>
-    <li>DevOps</li>
+    <li>Deep Learning Engineer</li>
   </ul>
 </td>
     <td width="60%">

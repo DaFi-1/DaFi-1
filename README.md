@@ -1,17 +1,17 @@
 
-<table style="border: none; border-collapse: collapse;">
+<table>
   <tr>
-    <td style="border: none; padding: 0; margin: 0;">
+    <td>
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=DaFi-1&show_icons=true&theme=tokyonight" /><br/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=DaFi-1&show_icons=true&theme=tokyonight" />
+<br/>
 <img src="https://streak-stats.demolab.com?user=DaFi-1&theme=tokyonight" />
 
-    </td>
-
-    <td style="border: none; padding: 0; margin: 0;">
+  </td>
+  <td>
 
 <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=DaFi-1&layout=compact&theme=tokyonight" />
 
-    </td>
+  </td>
   </tr>
 </table>

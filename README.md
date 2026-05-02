@@ -9,7 +9,7 @@
   </ul>
   <h3>📁 Projects Overview</h3>
 <ul>
-  <li><a href="https://github.com/DaFi-1/DaFi-1/blob/main/HOME.md">Ebooks</a> <span>(2 projects)</span></li>
+  <li><a href="#">Ebooks</a> <span>(2 projects)</span></li>
   <li><a href="#">DevOps</a> <span>(4 projects)</span></li>
   <li><a href="#">Backend</a> <span>(6 projects)</span></li>
   <li><a href="#">FrontEnd</a> <span>(3 projects)</span></li>

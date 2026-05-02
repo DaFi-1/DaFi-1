@@ -3,8 +3,8 @@
 <table width="100%">
   <tr>
 <td width="40%" valign="top">
-  <h1 align="center">👋 Hi, I'm DaFi</h1>
-  <p>Backend | FrontEnd | DevOps</p>
+  <h2 align="center">👋 Hi, I'm DaFi</h2>
+  <p align="center">Backend | FrontEnd | DevOps</p>
   <h3>📌 Navigation</h3>
   <ul>
     <li>Stats</li>

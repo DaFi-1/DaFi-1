@@ -10,13 +10,13 @@
     <li><a href="https://github.com/DaFi-1/tasknvim">tasknvim</a> - ⭐13</li>
   </ul>
   <h4>📁 Projects Overview</h3>
-  <ul>
-    <li><a href="">Ebooks</a></li>
-    <li><a href="">DevOps</a></li>
-    <li><a href="">Backend</a></li>
-    <li><a href="">FrontEnd</a></li>
-    <li><a href="">Deep Learning</a></li>
-  </ul>
+<ul>
+  <li><a href="#">Ebooks</a> <span>(2 projects)</span></li>
+  <li><a href="#">DevOps</a> <span>(4 projects)</span></li>
+  <li><a href="#">Backend</a> <span>(6 projects)</span></li>
+  <li><a href="#">FrontEnd</a> <span>(3 projects)</span></li>
+  <li><a href="#">Deep Learning</a> <span>(5 projects)</span></li>
+</ul>
 </td>
     <td width="60%">
       <img src="https://ghstats.dev/api/card?username=DaFi-1&theme=transparent"             width="100%" />

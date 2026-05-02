@@ -15,11 +15,6 @@
     <li>FrontEnd</li>
     <li>DevOps</li>
   </ul>
-  <h3>🌐 Links</h3>
-  <p>
-   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Lua/lua1.svg"/>
-   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Neovim/neovim3.svg"/>
-  </p>
 </td>
     <td width="60%">
       <img src="https://ghstats.dev/api/card?username=DaFi-1&theme=transparent"             width="100%" />

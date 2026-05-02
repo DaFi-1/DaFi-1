@@ -12,6 +12,13 @@
 <details>
 <summary>📚 Ebooks (2 projects)</summary>
   <a href="#">Ebooks</a> <span>(2 projects)</span>
+  <a href="#">Ebooks</a> <span>(2 projects)</span>
+  <a href="#">Ebooks</a> <span>(2 projects)</span>
+  <a href="#">Ebooks</a> <span>(2 projects)</span>
+  <a href="#">Ebooks</a> <span>(2 projects)</span>
+  <a href="#">Ebooks</a> <span>(2 projects)</span>
+  <a href="#">Ebooks</a> <span>(2 projects)</span>
+  <a href="#">Ebooks</a> <span>(2 projects)</span>
 </details>
 <details>
   <li><a href="#">Ebooks</a> <span>(2 projects)</span></li>

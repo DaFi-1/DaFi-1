@@ -3,12 +3,14 @@
 <table width="100%">
   <tr>
     <td width="40%">
-    <h1>hello</h1>
-    # hhello
-    <h1>hello</h1>
-    <h1>hello</h1>
-    <h1>hello</h1>
-    <h1>hello</h1>
+
+# 👋 Hello, I'm DaFi-1
+
+💻 Developer passionate about building things  
+🚀 Focused on Neovim, automation and backend  
+📚 Always learning and improving  
+
+---
     <h1>hello</h1>
     </td>
     <td width="60%">

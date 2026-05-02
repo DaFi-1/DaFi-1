@@ -7,7 +7,7 @@
   <p align="center">Backend | FrontEnd | DevOps | Vibe Coder</p>
   <h3>📌 The best Projects</h3>
   <ul>
-    <li>⭐<a href="https://github.com/DaFi-1/tasknvim">tasknvim</a></li>
+    <li><a href="https://github.com/DaFi-1/tasknvim">tasknvim</a> - ⭐13</li>
   </ul>
   <h3>📁 Projects Overview</h3>
   <ul>

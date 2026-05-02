@@ -11,7 +11,7 @@
   </tr>
 </table>
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=DaFi-1&repo=tasknvim&theme=tokyonight" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=DaFi-1&repo=tasknvim&theme=transparent" />
 
 
 

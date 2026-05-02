@@ -4,7 +4,7 @@
   <tr>
 <td width="40%" valign="top">
   <h2 align="center">👋 Hi, I'm DaFi</h2>
-  <p align="center">Backend | FrontEnd | DevOps</p>
+  <p align="center">Backend | FrontEnd | DevOps | Vibe Coder</p>
   <h3>📌 Navigation</h3>
   <ul>
     <li>Stats</li>

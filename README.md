@@ -14,7 +14,7 @@
   <li><a href="#">Backend</a> <span>(6 projects)</span></li>
   <li><a href="#">FrontEnd</a> <span>(3 projects)</span></li>
   <li><a href="#">Deep Learning</a> <span>(5 projects)</span></li>
-  <li><a href="#">All</a> <span>(800 projects)</span></li>
+  <li><a>ALL</a> <span>(800 projects)</span></li>
 </ul>
 <h4>📁 Certifications</h4>
 <ul>

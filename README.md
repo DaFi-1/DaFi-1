@@ -1,5 +1,5 @@
 <a href="https://github.com/rowkav09/GitHub-profile-stats">
-  <img src="https://ghstats.dev/api/card?username=DaFi-1&theme=tokyonight" width="100%" />
+  <img src="https://ghstats.dev/api/card?username=DaFi-1&theme=tokyonight" width="100%" height="100px"/>
 </a>
 [![](https://ghstats.dev/api/langs?username=DaFi-1&theme=dracula&layout=bar)](https://github.com/rowkav09/GitHub-profile-stats)
 <p align="center">

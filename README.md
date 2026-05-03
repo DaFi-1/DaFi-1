@@ -112,7 +112,12 @@
 | ⚙️ DevOps | ✅ | 200h |
 | 🧠 Backend | ❌ | 180h |
 
-
+<table width="100%">
+  <tr>
+    <td>⚙️ DevOps</td>
+    <td>200h</td>
+  </tr>
+</table>
 
 
 

@@ -62,7 +62,7 @@
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Concluído | ❌ Em Desenvolvimento</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">DeepLearning-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
-  <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/PerceptronGuide.git">PerceptronGuide</a></td><td style="padding:2px 4px;">❌</td></tr>
+  <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/PerceptronGuide.git">PerceptronGuide</a></td><td style="padding:2px 4px;">✅</td></tr>
   </table>
   </details>
 
@@ -71,7 +71,7 @@
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Concluído | ❌ Em Desenvolvimento</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Other-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
-  <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="#">CNN model</a></td><td style="padding:2px 4px;">❌</td></tr>
+  <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/tasknvim">tasknvim</a></td><td style="padding:2px 4px;">❌</td></tr>
   </table>
   </details>
 

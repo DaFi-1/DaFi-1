@@ -3,7 +3,7 @@
 <td width="30%" valign="top">
   <h3>📌 The best Projects</h3>
   <ul>
-    <li><a href="https://github.com/DaFi-1/tasknvim">tasknvim</a> - ⭐14</li>
+    <li><a href="https://github.com/DaFi-1/tasknvim">tasknvim</a> - ⭐15</li>
   </ul>
   <h3>📁 Projects Overview</h3>
 <ul>
@@ -29,6 +29,9 @@
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Ebook-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-TDD-Desenvolvimento-Guiado-por-Test.git">Ebook-TDD-Desenvolvimento-Guiado-por-Test</a></td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="#"></a></td><td style="padding:2px 4px;">❌</td></tr>
+  <tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="#"></a></td><td style="padding:2px 4px;">❌</td></tr>
+  <tr><td style="padding:2px 4px;">4</td><td style="padding:2px 4px;"><a href="#"></a></td><td style="padding:2px 4px;">❌</td></tr>
   </table>
   </details>
 
@@ -41,11 +44,10 @@
   </details>
 
   <details id="backend">
-  <summary><a href="#">Backend</a> <span style="font-size:12px; color:#666;">(1 project)</span></summary>
+  <summary><a href="#">Backend</a> <span style="font-size:12px; color:#666;">(0 project)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Concluído | ❌ Em Desenvolvimento</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Backend-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
-  <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/100-Pytest-Projects.git">100-Pytest-Projects</a></td><td style="padding:2px 4px;">❌</td></tr>
   </table>
   </details>
 
@@ -72,6 +74,7 @@
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Other-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/tasknvim">tasknvim</a></td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/100-Pytest-Projects.git">100-Pytest-Projects</a></td><td style="padding:2px 4px;">❌</td></tr>
   </table>
   </details>
 </div>

@@ -7,7 +7,7 @@
   </ul>
   <h3>📁 Projects Overview</h3>
 <ul>
-  <li><a>ALL</a> <span>(11 projects)</span></li>
+  <li><a>ALL</a> <span>(13 projects)</span></li>
 </ul>
 <h3>📁 Certifications</h3>
 <ul>
@@ -54,6 +54,7 @@
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Concluído | ❌ Em Desenvolvimento</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">FrontEnd-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
+  <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/100-Html-Css-Js-Project.git">100-Html-Css-Js-Project</a></td><td style="padding:2px 4px;">✅</td></tr>
   </table>
   </details>
 

@@ -107,7 +107,10 @@
 </details>
 
 
-
+| 📁 Project | Status | Hours |
+|-----------|--------|------|
+| ⚙️ DevOps | ✅ | 200h |
+| 🧠 Backend | ❌ | 180h |
 
 
 

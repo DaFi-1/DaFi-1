@@ -73,7 +73,7 @@
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Other-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/tasknvim">tasknvim</a></td><td style="padding:2px 4px;">✅</td></tr>
   <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/tabindex.git">tabindex</a></td><td style="padding:2px 4px;">✅</td></tr>
-  <tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/100-Pytest-Projects.git">100-Pytest-Projects</a></td><td style="padding:2px 4px;">❌</td></tr>
+  <tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/100-Pytest-Projects.git">100-Pytest-Projects</a></td><td style="padding:2px 4px;">✅</td></tr>
   </table>
   </details>
 </div>

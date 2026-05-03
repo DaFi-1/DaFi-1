@@ -7,7 +7,7 @@
   </ul>
   <h3>📁 Projects Overview</h3>
 <ul>
-  <li><a>ALL</a> <span>(8 projects)</span></li>
+  <li><a>ALL</a> <span>(11 projects)</span></li>
 </ul>
 <h3>📁 Certifications</h3>
 <ul>

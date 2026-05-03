@@ -22,7 +22,7 @@
     </td>
   </tr>
 </table>
-
+</div>
 <h3 id="project-overview">📁 Projects Overview</h3>
 <div style="margin-left: 1.5em;">
   <details id="ebooks">
@@ -77,7 +77,6 @@
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="#">CNN model</a></td><td style="padding:2px 4px;">❌</td></tr>
   </table>
   </details>
-</div>
 
 <h3 id="certifications">📁 Certifications</h3>
 <div style="margin-left: 1.5em;">
@@ -105,19 +104,5 @@
 <div style="margin-top: 8px; display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px;">
 </div>
 </details>
-
-
-| 📁 Project | Status | Hours |
-|-----------|--------|------|
-| ⚙️ DevOps | ✅ | 200h |
-| 🧠 Backend | ❌ | 180h |
-
-<table width="100%">
-  <tr>
-    <td>⚙️ DevOps</td>
-    <td>200h</td>
-  </tr>
-</table>
-
 
 

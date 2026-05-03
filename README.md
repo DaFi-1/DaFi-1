@@ -16,7 +16,6 @@
 </td>
     <td width="70%">
       <img src="https://ghstats.dev/api/card?username=DaFi-1&theme=transparent"             width="100%" />
-      <img src="https://ghstats.dev/api/langs?username=DaFi-1&theme=transparent&layout=bar" width="100%" />
     </td>
   </tr>
 </table>

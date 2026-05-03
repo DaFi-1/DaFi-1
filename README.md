@@ -20,7 +20,7 @@
     </td>
   </tr>
 </table>
-</div>
+
 <h3 id="project-overview">📁 Projects Overview</h3>
 <div style="margin-left: 1.5em;">
   <details id="ebooks">
@@ -74,33 +74,5 @@
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/tasknvim">tasknvim</a></td><td style="padding:2px 4px;">✅</td></tr>
   </table>
   </details>
-
-<h3 id="certifications">📁 Certifications</h3>
-<div style="margin-left: 1.5em;">
-
-<details id="cert-devops">
-<summary><a href="#">DevOps</a> <b>(0)</b> • ⏱ 0h</summary>
-<div style="margin-top: 8px; display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px;">
-</div>
-</details>
-
-<details id="cert-backend">
-<summary><a href="#">Backend</a> <b>(0)</b> • ⏱ 0h</summary>
-<div style="margin-top: 8px; display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px;">
-</div>
-</details>
-
-<details id="cert-frontend">
-<summary><a href="#">FrontEnd</a> <b>(0)</b> • ⏱ 0h</summary>
-<div style="margin-top: 8px; display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px;">
-</div>
-</details>
-
-<details id="cert-deeplearning">
-<summary><a href="#">Deep Learning</a> <b>(0)</b> • ⏱ 0h</summary>
-<div style="margin-top: 8px; display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px;">
-</div>
-</details>
-
 </div>
 

@@ -96,7 +96,7 @@
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Other-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/DaFi-1.git">DaFi-1</a></td><td style="padding:2px 4px;">✅</td></tr>
   <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/dotfile.git">dotfile</a></td><td style="padding:2px 4px;">✅</td></tr>
-  <tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Portfolio.git">Portfolio</a></td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Trash-1.git">Trash-1</a></td><td style="padding:2px 4px;">✅</td></tr>
   </table>
   </details>
 

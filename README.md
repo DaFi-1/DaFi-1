@@ -80,7 +80,7 @@
   </details>
 
   <details id="deeplearning">
-  <summary><a href="#">NeoVim</a> <span style="font-size:12px; color:#666;">(5 project)</span></summary>
+  <summary><a href="#">NeoVim</a> <span style="font-size:12px; color:#666;">(4 project)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Concluído | ❌ Em Desenvolvimento</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Other-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
@@ -88,7 +88,6 @@
   <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/tabindex.git">tabindex</a></td><td style="padding:2px 4px;">✅</td></tr>
   <tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/bolinhax.git">bolinhax</a></td><td style="padding:2px 4px;">✅</td></tr>
   <tr><td style="padding:2px 4px;">4</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/winhopxx.git">winhopxx</a></td><td style="padding:2px 4px;">✅</td></tr>
-  <tr><td style="padding:2px 4px;">5</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/awesome-neovim.git">awesome-neovim</a></td><td style="padding:2px 4px;">✅</td></tr>
   </table>
   </details>
 
@@ -100,6 +99,16 @@
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/DaFi-1.git">DaFi-1</a></td><td style="padding:2px 4px;">✅</td></tr>
   <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/dotfile.git">dotfile</a></td><td style="padding:2px 4px;">✅</td></tr>
   <tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Trash-1.git">Trash-1</a></td><td style="padding:2px 4px;">✅</td></tr>
+  </table>
+  </details>
+
+  <details id="deeplearning">
+  <summary><a href="#">Forks</a> <span style="font-size:12px; color:#666;">(2 project)</span></summary>
+  <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Concluído | ❌ Em Desenvolvimento</p>
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
+  <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Other-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
+  <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/projects">projects</a></td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/awesome-neovim.git">awesome-neovim</a></td><td style="padding:2px 4px;">✅</td></tr>
   </table>
   </details>
 

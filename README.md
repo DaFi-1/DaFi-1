@@ -55,7 +55,7 @@
   </details>
 
   <details id="frontend">
-  <summary><a href="#">GameDev</a> <span style="font-size:12px; color:#666;">(1 projects) <img src="https://img.shields.io/badge/+23-limegreen" width="30px"/></span></summary>
+  <summary><a href="#">FrontEnd</a> <span style="font-size:12px; color:#666;">(1 projects) <img src="https://img.shields.io/badge/+23-limegreen" width="30px"/></span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">FrontEnd-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
@@ -64,13 +64,14 @@
   </details>
 
   <details id="frontend">
-  <summary><a href="#">FrontEnd</a> <span style="font-size:12px; color:#666;">(1 projects) <img src="https://img.shields.io/badge/+23-limegreen" width="30px"/></span></summary>
+  <summary><a href="#">GameDev</a> <span style="font-size:12px; color:#666;">(1 projects) <img src="https://img.shields.io/badge/+23-limegreen" width="30px"/></span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">FrontEnd-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/100-Html-Css-Js-Project.git">100-Html-Css-Js-Project</a></td><td style="padding:2px 4px;">❌</td></tr>
   </table>
   </details>
+
 
   <details id="deeplearning">
   <summary><a href="#">Deep Learning</a> <span style="font-size:12px; color:#666;">(1 project)</span></summary>

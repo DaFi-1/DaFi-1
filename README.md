@@ -52,8 +52,6 @@
   </table>
   </details>
 <img src="https://img.shields.io/badge/+22-brightgreen" />
-<img src="https://img.shields.io/badge/+22-green" />
-<img src="https://img.shields.io/badge/+22-yellowgreen" />
 <img src="https://img.shields.io/badge/+22-limegreen" />
   <details id="frontend">
   <summary><a href="#">FrontEnd</a> <span style="font-size:12px; color:#666;">(1 projects)</span><img src="https://img.shields.io/badge/+22-green" /></summary>

@@ -9,8 +9,8 @@
   </ul>
   <h3>📁 Projects Overview</h3>
 <ul>
-  <li><a>ALL</a> <span>38 projects</span></li>
-  <li><a></a><span>15 Repoeitory</span></li>
+  <li><span>38 Projects</span></li>
+  <li><span>15 Repositories</span></li>
 </ul>
 <h3>📁 Certifications</h3>
 <ul>

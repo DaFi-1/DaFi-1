@@ -9,7 +9,7 @@
   </ul>
   <h3>📁 Projects Overview</h3>
 <ul>
-  <li><a>ALL</a> <span>(14 projects)</span></li>
+  <li><a>ALL</a> <span>(15 projects)</span></li>
 </ul>
 <h3>📁 Certifications</h3>
 <ul>
@@ -53,7 +53,7 @@
   </details>
 
   <details id="frontend">
-  <summary><a href="#">FrontEnd</a> <span style="font-size:12px; color:#666;">(1 projects)</span></summary>
+  <summary><a href="#">FrontEnd</a> <span style="font-size:12px; color:#666;">(1 projects)</span><span style="color:green;">+ 22</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Concluído | ❌ Em Desenvolvimento</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">FrontEnd-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>

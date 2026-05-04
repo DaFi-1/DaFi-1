@@ -51,7 +51,7 @@
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Backend-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
   </table>
   </details>
-
+<img src="https://img.shields.io/badge/+22-green" />
   <details id="frontend">
   <summary><a href="#">FrontEnd</a> <span style="font-size:12px; color:#666;">(1 projects)</span><span style="color:green;">+ 22</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Concluído | ❌ Em Desenvolvimento</p>

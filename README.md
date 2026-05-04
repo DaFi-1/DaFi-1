@@ -29,7 +29,7 @@
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Ebook-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Calculo-Vol1-9Ed.git">Ebook-Calculo-Vol1-9Ed</a></td><td style="padding:2px 4px;">❌</td></tr>
-  <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Como-Programar-C.git">Ebook-Como-Programar-C</a></td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Como-Programar-C.git">Ebook-Como-Programar-C</a></td><td style="padding:2px 4px;">❌</td></tr>
   <tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-TDD-Desenvolvimento-Guiado-por-Test.git">Ebook-TDD-Desenvolvimento-Guiado-por-Test</a></td><td style="padding:2px 4px;">✅</td></tr>
   </table>
   </details>

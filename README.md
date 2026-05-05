@@ -5,12 +5,12 @@
 <td width="30%" valign="top">
   <h3>📌 The best Projects</h3>
   <ul>
-    <li><a href="https://github.com/DaFi-1/tasknvim">tasknvim</a> - ⭐16</li>
+    <li><a href="https://github.com/DaFi-1/tasknvim">tasknvim</a> - ⭐19</li>
   </ul>
   <h3>📁 Projects Overview</h3>
 <ul>
   <li><span>59 Projects</span></li>
-  <li><span>17 Repositories</span></li>
+  <li><span>18 Repositories</span></li>
 </ul>
 <h3>📁 Certifications</h3>
 <ul>

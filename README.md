@@ -104,7 +104,7 @@
   </details>
 
   <details id="deeplearning">
-  <summary><a href="#">Forks</a> <span style="font-size:12px; color:#666;">(2 project)</span></summary>
+  <summary><a href="#">Forks</a> <span style="font-size:12px; color:#666;">(3 project)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Other-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>

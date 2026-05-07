@@ -24,7 +24,7 @@
     </td>
   </tr>
 </table>
-
+ 
 <h3 id="project-overview">📁 Projects Overview</h3>
 <div style="margin-left: 1.5em;">
   <details id="ebooks">

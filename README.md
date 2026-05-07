@@ -113,6 +113,7 @@
   <tr><td style="padding:2px 4px;">4</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/cpython.git">cpython</a></td><td style="padding:2px 4px;">✅</td></tr>
   <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/lucasfrmaia.git">lucasfrmaia</a></td><td style="padding:2px 4px;">✅</td></tr>
   <tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/awesome-neovim.git">awesome-neovim</a></td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/neovim.git">neovim</a></td><td style="padding:2px 4px;">✅</td></tr>
   </table>
   </details>
 

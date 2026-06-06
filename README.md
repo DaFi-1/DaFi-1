@@ -25,7 +25,8 @@
   </tr>
 </table>
  -->
-<h3 id="project-overview">📁 Projects Overview</h3>
+<h3 id="project-overview">📁 Projects Overview - 73</h3>
+
 <div style="margin-left: 1.5em;">
   <details id="ebooks">
   <summary><a href="https://github.com/DaFi-1/DaFi-1/blob/main/DaFi.md">Ebooks</a> <span style="font-size:12px; color:#666;">(4 projects)</span></summary>

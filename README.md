@@ -25,7 +25,7 @@
   </tr>
 </table>
  -->
-<h3 id="project-overview">📁 Projects Overview - 64</h3>
+<h3 id="project-overview">📁 Projects Overview - 65</h3>
 
 <div style="margin-left: 1.5em;">
   <details id="ebooks">
@@ -85,11 +85,12 @@
 
 
   <details id="deeplearning">
-  <summary><a href="#">Deep Learning</a> <span style="font-size:12px; color:#666;">(3 project)</span></summary>
+  <summary><a href="#">Deep Learning</a> <span style="font-size:12px; color:#666;">(4 project)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">DeepLearning-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/PerceptronGuide.git">PerceptronGuide</a></td><td style="padding:2px 4px;">✅</td></tr>
+     <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/DeepLearningRoadmap">DeepLearningRoadmap</a></td><td style="padding:2px 4px;">✅
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/PerceptronWithIntercept">PerceptronWithIntercept</a></td><td style="padding:2px 4px;">✅</td></tr>
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/PyTorch-Document-Learning">PyTorch-Document-Learning</a></td><td style="padding:2px 4px;">✅</td></tr>
   </table>

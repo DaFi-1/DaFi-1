@@ -39,7 +39,7 @@
   <tr><td style="padding:2px 4px;">4</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-TDD-Desenvolvimento-Guiado-por-Test.git">Ebook-TDD-Desenvolvimento-Guiado-por-Test</a></td><td style="padding:2px 4px;">✅</td></tr>
   </table>
   </details>
-
+ 
   <details id="devops">
   <summary><a href="#">DevOps</a> <span style="font-size:12px; color:#666;">(0 projects)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>

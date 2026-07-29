@@ -55,7 +55,7 @@
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Backend-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
   </table>
   </details>
-  
+   
 <details id="systems">
   <summary><a href="#">systems</a> <span style="font-size:12px; color:#666;">(1 project)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>

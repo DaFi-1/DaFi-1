@@ -29,7 +29,7 @@
   </tr>
 </table>
  -->
-<h3 id="project-overview">📁 Projects Overview - 65</h3>
+<h3 id="project-overview">📁 Projects Overview - 65 | Certifications - 30 </h3>
 
 <div style="margin-left: 1.5em;">
   <details id="ebooks">

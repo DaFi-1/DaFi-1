@@ -32,6 +32,67 @@
 <h3 id="project-overview">📁 Projects Overview - 65 | 🎓 Certifications - 30 </h3>
 
 <div style="margin-left: 1.5em;">
+
+<details id="skills">
+  <summary><a href="#">Skills</a></summary>
+
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.3;">
+    <tr>
+      <th style="padding: 6px 8px; width: 150px; text-align: left;">Skill</th>
+      <th style="padding: 6px 8px; text-align: left;">Technologies</th>
+    </tr>
+    <tr>
+      <td style="padding: 6px 8px;"><b>Languages</b></td>
+      <td style="padding: 6px 8px;">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+        <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white">
+        <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 6px 8px;"><b>Web Development</b></td>
+      <td style="padding: 6px 8px;">
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+        <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">
+        <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white">
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 6px 8px;"><b>Machine Learning</b></td>
+      <td style="padding: 6px 8px;">
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
+        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 6px 8px;"><b>Data Science</b></td>
+      <td style="padding: 6px 8px;">
+        <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
+        <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
+        <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white">
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 6px 8px;"><b>DevOps</b></td>
+      <td style="padding: 6px 8px;">
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 6px 8px;"><b>Version Control</b></td>
+      <td style="padding: 6px 8px;">
+        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+      </td>
+    </tr>
+  </table>
+</details>
+
+
+
+ 
   <details id="ebooks">
   <summary><a href="https://github.com/DaFi-1/DaFi-1/blob/main/DaFi.md">Ebooks</a> <span style="font-size:12px; color:#666;">(4 projects)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>

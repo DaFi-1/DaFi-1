@@ -115,6 +115,22 @@
 
   </table>
   </details>
+
+
+
+  <details id="Social impact">
+  <summary><a href="https://github.com/DaFi-1/DaFi-1/blob/main/DaFi.md">Social impact</a> <span style="font-size:12px; color:#666;">(5 projects)</span></summary>
+  <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
+  <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Ebook-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
+  <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Calculo-Vol1-9Ed.git">ONGs-ongasis-templatesite</a></td><td style="padding:2px 4px;">✅</td></tr>
+      <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Calculo-Vol1-9Ed.git">ONGs-onfpd-templatesite</a></td><td style="padding:2px 4px;">✅</td></tr>
+    
+  </table>
+  </details>
+
+
+
  
   <details id="devops">
   <summary><a href="#">DevOps</a> <span style="font-size:12px; color:#666;">(0 projects)</span></summary>

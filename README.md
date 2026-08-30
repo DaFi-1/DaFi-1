@@ -99,8 +99,6 @@
   </table>
 </details>
 
-
-
  
   <details id="ebooks">
   <summary><a href="https://github.com/DaFi-1/DaFi-1/blob/main/DaFi.md">Ebooks</a> <span style="font-size:12px; color:#666;">(5 projects)</span></summary>

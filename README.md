@@ -29,7 +29,7 @@
   </tr>
 </table>
  -->
-<h3 id="project-overview">📁 Projects Overview - 66 | 🎓 Certifications - 30 </h3>
+<h3 id="project-overview">📁 Projects Overview - 66 | 🎓 Certifications - 30 </h3>  
 
 <div style="margin-left: 1.5em;">
 
@@ -147,6 +147,8 @@
 
   </table>
   </details>
+
+
    
 <details id="systems">
   <summary><a href="#">systems</a> <span style="font-size:12px; color:#666;">(1 project)</span></summary>
@@ -157,6 +159,8 @@
   </table>
   </details>
 
+
+
   <details id="frontend">
   <summary><a href="#">FrontEnd</a> <span style="font-size:12px; color:#666;">(1 projects) <img src="https://img.shields.io/badge/+24-limegreen" width="30px"/></span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
@@ -166,6 +170,8 @@
   </table>
   </details>
 
+
+
   <details id="frontend">
   <summary><a href="#">GameDev</a> <span style="font-size:12px; color:#666;">(1 projects) <img src="https://img.shields.io/badge/+20-limegreen" width="30px"/></span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
@@ -174,6 +180,8 @@
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/100-Raylib-Projects.git">100-Raylib-Projects</a></td><td style="padding:2px 4px;">❌</td></tr>
   </table>
   </details>
+
+
 
 
   <details id="deeplearning">
@@ -187,6 +195,8 @@
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/PyTorch-Document-Learning">PyTorch-Document-Learning</a></td><td style="padding:2px 4px;">✅</td></tr>
   </table>
   </details>
+
+
 
   <details id="deeplearning">
   <summary><a href="#">Software Engine</a> <span style="font-size:12px; color:#666;">(2 project)</span></summary>

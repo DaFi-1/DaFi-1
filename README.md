@@ -191,9 +191,9 @@
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">DeepLearning-Project</th><th style="padding:2px 4px;">Stack</th><th style="padding:2px 4px; width:110px;"></th></tr>
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/PerceptronGuide.git">PerceptronGuide</a></td><td style="padding:2px 4px;">Python</td><td style="padding:2px 4px;">✅</td></tr>
-     <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/DeepLearningRoadmap">DeepLearningRoadmap</a></td><td style="padding:2px 4px;"></td><td style="padding:2px 4px;">✅</td></tr>
-  <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/PerceptronWithIntercept">PerceptronWithIntercept</a></td><td style="padding:2px 4px;">Python</td><td style="padding:2px 4px;">✅</td></tr>
-  <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/PyTorch-Document-Learning">PyTorch-Document-Learning</a></td><td style="padding:2px 4px;">PyTorch</td><td style="padding:2px 4px;">✅</td></tr>
+     <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/DeepLearningRoadmap">DeepLearningRoadmap</a></td><td style="padding:2px 4px;"></td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/PerceptronWithIntercept">PerceptronWithIntercept</a></td><td style="padding:2px 4px;">Python</td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">4</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/PyTorch-Document-Learning">PyTorch-Document-Learning</a></td><td style="padding:2px 4px;">PyTorch</td><td style="padding:2px 4px;">✅</td></tr>
   </table>
   </details>
 
@@ -226,10 +226,10 @@
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Other-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/projects">projects</a></td><td style="padding:2px 4px;">✅</td></tr>
-  <tr><td style="padding:2px 4px;">4</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/cpython.git">cpython</a></td><td style="padding:2px 4px;">✅</td></tr>
-  <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/lucasfrmaia.git">lucasfrmaia</a></td><td style="padding:2px 4px;">✅</td></tr>
-  <tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/awesome-neovim.git">awesome-neovim</a></td><td style="padding:2px 4px;">✅</td></tr>
-  <tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/neovim.git">neovim</a></td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/cpython.git">cpython</a></td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/lucasfrmaia.git">lucasfrmaia</a></td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">4</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/awesome-neovim.git">awesome-neovim</a></td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">5</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/neovim.git">neovim</a></td><td style="padding:2px 4px;">✅</td></tr>
   </table>
   </details>
 

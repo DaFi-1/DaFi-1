@@ -104,13 +104,13 @@
   <summary><a href="https://github.com/DaFi-1/DaFi-1/blob/main/DaFi.md">Ebooks</a> <span style="font-size:12px; color:#666;">(5 projects)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
-  <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Ebook-Project</th><th style="padding:2px 4px;">Stack</th><th style="padding:2px 4px; width:110px;"></th></tr>
-  <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Calculo-Vol1-9Ed.git">Ebook-Calculo-Vol1-9Ed</a></td><td style="padding:2px 4px;"></td><td style="padding:2px 4px;">❌</td></tr>
-  <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Como-Programar-C.git">Ebook-Como-Programar-C</a></td><td style="padding:2px 4px;"></td><td style="padding:2px 4px;">✅</td></tr>
-  <tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Algebra-Linear-With-Aplication.git">Ebook-Algebra-Linear-With-Aplication</a></td><td style="padding:2px 4px;"></td><td style="padding:2px 4px;">❌</td></tr>
-  <tr><td style="padding:2px 4px;">4</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-TDD-Desenvolvimento-Guiado-por-Test.git">Ebook-TDD-Desenvolvimento-Guiado-por-Test</a></td><td style="padding:2px 4px;"></td><td style="padding:2px 4px;">✅</td></tr>
-  <tr><td style="padding:2px 4px;">5</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Edward-Snowden-Eterna-vigilancia.git">Ebook-Edward-Snowden-Eterna-vigilância</a></td><td style="padding:2px 4px;"></td><td style="padding:2px 4px;">✅</td></tr>
-  <tr><td style="padding:2px 4px;">6</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Edward-Snowden-Eterna-vigilancia.git">Ebook-Edward-Snowden-Eterna-vigilância</a></td><td style="padding:2px 4px;"></td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Ebook-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
+  <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Calculo-Vol1-9Ed.git">Ebook-Calculo-Vol1-9Ed</a></td><td style="padding:2px 4px;">❌</td></tr>
+  <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Como-Programar-C.git">Ebook-Como-Programar-C</a></td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Algebra-Linear-With-Aplication.git">Ebook-Algebra-Linear-With-Aplication</a></td><td style="padding:2px 4px;">❌</td></tr>
+  <tr><td style="padding:2px 4px;">4</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-TDD-Desenvolvimento-Guiado-por-Test.git">Ebook-TDD-Desenvolvimento-Guiado-por-Test</a></td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">5</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Edward-Snowden-Eterna-vigilancia.git">Ebook-Edward-Snowden-Eterna-vigilância</a></td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">6</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Edward-Snowden-Eterna-vigilancia.git">Ebook-Edward-Snowden-Eterna-vigilância</a></td><td style="padding:2px 4px;">✅</td></tr>
 
   </table>
   </details>

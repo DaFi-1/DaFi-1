@@ -29,6 +29,7 @@
   </tr>
 </table>
  -->
+ 
 <h3 id="project-overview">📁 Projects Overview - 83 | 🎓 Certifications - 30 </h3>  
 
 <div style="margin-left: 1.5em;">

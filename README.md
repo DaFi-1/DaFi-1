@@ -125,7 +125,7 @@
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Ebook-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/ONGs-ongasis-templatesite.git">ONGs-ongasis-templatesite</a></td><td style="padding:2px 4px;">✅</td></tr>
   <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/ONGs-onfpd-templatesite.git">ONGs-onfpd-templatesite</a></td><td style="padding:2px 4px;">✅</td></tr>
-<tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/ONGs-onfcq-templatesite.git">ONGs-onfcq-templatesite.git</a></td><td style="padding:2px 4px;">✅</td></tr>
+<tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/ONGs-onfcq-templatesite.git">ONGs-onfcq-templatesite</a></td><td style="padding:2px 4px;">✅</td></tr>
 
 
    </table>

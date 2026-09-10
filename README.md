@@ -30,7 +30,7 @@
 </table>
  -->
  
-<h3 id="project-overview">📁 Projects Overview - 85 | 🎓 Certifications - 30 </h3>  
+<h3 id="project-overview">📁 Projects Overview - 86 | 🎓 Certifications - 30 </h3>  
 
 <div style="margin-left: 1.5em;">
 
@@ -102,7 +102,7 @@
 
  
   <details id="ebooks">
-  <summary><a href="https://github.com/DaFi-1/DaFi-1/blob/main/DaFi.md">Ebooks</a> <span style="font-size:12px; color:#666;">(7 projects)</span></summary>
+  <summary><a href="https://github.com/DaFi-1/DaFi-1/blob/main/DaFi.md">Ebooks</a> <span style="font-size:12px; color:#666;">(8 projects)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Ebook-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
@@ -113,8 +113,11 @@
   <tr><td style="padding:2px 4px;">5</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Edward-Snowden-Eterna-vigilancia.git">Ebook-Edward-Snowden-Eterna-vigilância</a></td><td style="padding:2px 4px;">✅</td></tr>
   <tr><td style="padding:2px 4px;">6</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Python-Fluente.git">Ebook-Python-Fluente</a></td><td style="padding:2px 4px;">✅</td></tr>
   <tr><td style="padding:2px 4px;">7</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Express-es-Regulares-Uma-abordagem-divertida.git">Ebook-Expressoes-Regulares-Uma-abordagem-divertida</a></td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">8</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Python-Para-Desenvovedores.git">Ebook-Python-Para-Desenvovedores</a></td><td style="padding:2px 4px;">✅</td></tr>
 
 
+
+https://github.com/DaFi-1/Ebook-Python-Para-Desenvovedores.git
    </table>
   </details>
 

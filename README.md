@@ -117,8 +117,7 @@
 
 
 
-https://github.com/DaFi-1/Ebook-Python-Para-Desenvovedores.git
-   </table>
+  </table>
   </details>
 
 

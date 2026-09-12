@@ -30,7 +30,7 @@
 </table>
  -->
  
-<h3 id="project-overview">📁 Projects Overview - 86 | 🎓 Certifications - 30 </h3>  
+<h3 id="project-overview">📁 Projects Overview - 87 | 🎓 Certifications - 30 </h3>  
 
 <div style="margin-left: 1.5em;">
 

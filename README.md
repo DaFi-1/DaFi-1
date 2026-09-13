@@ -116,7 +116,6 @@
   <tr><td style="padding:2px 4px;">8</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/Ebook-Python-Para-Desenvovedores.git">Ebook-Python-Para-Desenvovedores</a></td><td style="padding:2px 4px;">✅</td></tr>
 
 
-
   </table>
   </details>
 

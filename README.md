@@ -30,7 +30,7 @@
 </table>
  -->
  
-<h3 id="project-overview">📁 Projects Overview - 96 | 🎓 Certifications - 30 </h3>  
+<h3 id="project-overview">📁 Projects Overview - 97 | 🎓 Certifications - 30 </h3>  
 
 <div style="margin-left: 1.5em;">
 
@@ -203,6 +203,8 @@
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">FrontEnd-Project</th><th style="padding:2px 4px;">Stack</th><th style="padding:2px 4px; width:110px;"></th></tr>
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/100-Raylib-Projects.git">100-Raylib-Projects</a></td><td style="padding:2px 4px;">Raylib (C)</td><td style="padding:2px 4px;">❌</td></tr>
+  <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="">OpenZ</a></td><td style="padding:2px 4px;">Raylib (C)</td><td style="padding:2px 4px;">❌</td></tr>
+
   </table>
   </details>
 

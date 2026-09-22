@@ -5,245 +5,143 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Currículo - Daniel Ferreira</title>
   <style>
-    :root {
-      --primary: #1f3a5f;
-      --accent: #c9a227;
-      --bg: #f4f4f4;
-      --card: #ffffff;
-      --text: #2b2b2b;
-      --muted: #6b6b6b;
-    }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.55;
+      font-family: "Times New Roman", Times, serif;
+      background: #fff;
+      color: #000;
+      font-size: 15px;
+      line-height: 1.5;
     }
     .page {
-      max-width: 900px;
-      margin: 32px auto;
-      background: var(--card);
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 4px 24px rgba(0,0,0,.08);
+      max-width: 800px;
+      margin: 0;
+      padding: 40px 48px 60px;
     }
-    header.top {
-      background: linear-gradient(135deg, var(--primary), #29496e);
-      color: #fff;
-      padding: 40px 48px;
-      display: flex;
-      gap: 28px;
-      align-items: center;
-    }
-    .avatar {
-      width: 110px;
-      height: 110px;
-      border-radius: 50%;
-      background: var(--accent);
-      color: var(--primary);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 44px;
-      font-weight: 700;
-      flex-shrink: 0;
-      border: 3px solid rgba(255,255,255,.5);
-    }
-    .nameplate h1 { font-size: 30px; letter-spacing: .5px; }
-    .nameplate p { color: #cfdae6; margin-top: 4px; font-size: 15px; }
-    main {
-      padding: 36px 48px 44px;
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      gap: 36px;
-    }
-    h2 {
-      font-size: 15px;
+    section { margin-bottom: 26px; }
+    .section-title {
+      font-size: 13px;
+      font-weight: bold;
       text-transform: uppercase;
-      letter-spacing: 1.2px;
-      color: var(--primary);
-      border-bottom: 2px solid var(--accent);
-      padding-bottom: 6px;
-      margin-bottom: 16px;
+      letter-spacing: 1px;
+      color: #326C99;
+      border-bottom: 1px solid #326C99;
+      padding-bottom: 4px;
+      margin-bottom: 12px;
     }
-    .col-left section, .col-right section { margin-bottom: 28px; }
-    ul.contact { list-style: none; }
-    ul.contact li { margin-bottom: 8px; font-size: 14px; word-break: break-word; }
-    ul.contact li span { color: var(--muted); display: block; font-size: 12px; }
-    .skills-bar { margin-bottom: 14px; }
-    .skills-bar .skill-name { font-size: 13px; margin-bottom: 3px; }
-    .bar { background: #e6e6e6; height: 8px; border-radius: 4px; overflow: hidden; }
-    .bar > span { display: block; height: 100%; background: var(--primary); border-radius: 4px; }
-    .chip {
-      display: inline-block;
-      background: #eef2f7;
-      color: var(--primary);
-      border-radius: 20px;
-      padding: 4px 12px;
-      font-size: 12.5px;
-      margin: 0 4px 6px 0;
-      border: 1px solid #d5dde8;
+    .period {
+      font-style: italic;
+      color: #444;
     }
-    .timeline-item { margin-bottom: 18px; }
-    .timeline-item h3 { font-size: 15px; color: var(--headercolor, var(--text)); }
-    .timeline-item .meta {
-      font-size: 12.5px;
-      color: var(--muted);
-      margin: 2px 0 6px;
-    }
-    .timeline-item ul { padding-left: 18px; font-size: 13.5px; }
-    .timeline-item li { margin-bottom: 4px; }
-    .tech-stack { margin-top: 4px; }
-    @media (max-width: 720px) {
-      main { grid-template-columns: 1fr; padding: 24px; }
-      header.top { flex-direction: column; text-align: center; padding: 28px 20px; }
+    .entry { margin-bottom: 14px; }
+    .entry .title { font-weight: bold; }
+    ol, ul { list-style-position: outside; }
+    .dot-list,
+    .num-list { padding-left: 24px; }
+    .dot-list,
+    .num-list li { margin-bottom: 10px; text-align: justify; }
+    a.link { color: #1f3a5f; }
+    a.inlink { margin-left: 6px; vertical-align: middle; }
+    a.inlink:hover { opacity: .7; }
+    .icon { width: 14px; height: 14px; }
+    @media (max-width: 640px) {
+      .page { padding: 24px 20px 40px; }
     }
   </style>
 </head>
 <body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="icon-ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+      <polyline points="15 3 21 3 21 9"/>
+      <line x1="10" y1="14" x2="21" y2="3"/>
+    </symbol>
+  </svg>
+
   <div class="page">
-    <header class="top">
-      <div class="avatar">DF</div>
-      <div class="nameplate">
-        <h1>Daniel Ferreira</h1>
-        <p>Desenvolvedor de Software · Programador Multilinguagem · Entusiasta de C, Python e Neovim</p>
+    <section>
+      <h2 class="section-title">1. Resumo</h2>
+      <p>
+        Desenvolvedor full-stack atuando atualmente como freelancer. Nas horas livres,
+        contribuo voluntariamente com ONGs na criação de sites, software e automação,
+        além de suporte técnico e consultoria em algumas organizações.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="section-title">2. Experiência Profissional Freelance</h2>
+      <p>Informações das empresas que autorizaram sua inclusão neste currículo.</p>
+      <div class="entry">
+        <p class="title">JapanGames</p>
+        <p>Prestação contínua de serviços — Software ERP</p>
+        <ul class="dot-list">
+          <li>Sistema em Django, SQLAlchemy e C, integrado à API do Discord para logs e alertas em tempo real.</li>
+          <li>Backend, integração entre serviços e manutenção contínua.</li>
+        </ul>
       </div>
-    </header>
-
-    <main>
-      <div class="col-left">
-        <section>
-          <h2>Contato</h2>
-          <ul class="contact">
-            <li><span>Localização</span>São Paulo, SP - Brasil</li>
-            <li><span>E-mail</span>daniel.ferreira@email.com.br</li>
-            <li><span>Telefone</span>+55 (11) 97777-0000</li>
-            <li><span>GitHub</span>github.com/DaFi-1</li>
-            <li><span>LinkedIn</span>linkedin.com/in/daniel-ferreira</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2>Idiomas</h2>
-          <ul class="contact">
-            <li><span>Português</span>Nativo</li>
-            <li><span>Inglês</span>Avançado (leitura/escrita)</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2>Habilidades</h2>
-          <div class="skills-bar">
-            <div class="skill-name">Python</div>
-            <div class="bar"><span style="width:85%"></span></div>
-          </div>
-          <div class="skills-bar">
-            <div class="skill-name">C / C++</div>
-            <div class="bar"><span style="width:80%"></span></div>
-          </div>
-          <div class="skills-bar">
-            <div class="skill-name">HTML / CSS / JavaScript</div>
-            <div class="bar"><span style="width:75%"></span></div>
-          </div>
-          <div class="skills-bar">
-            <div class="skill-name">Lua</div>
-            <div class="bar"><span style="width:70%"></span></div>
-          </div>
-          <div class="skills-bar">
-            <div class="skill-name">Shell Script</div>
-            <div class="bar"><span style="width:65%"></span></div>
-          </div>
-          <div class="skills-bar">
-            <div class="skill-name">Docker</div>
-            <div class="bar"><span style="width:60%"></span></div>
-          </div>
-          <h2 style="margin-top:24px;">Tecnologias</h2>
-          <div>
-            <span class="chip">Django</span><span class="chip">Flask</span>
-            <span class="chip">PyTorch</span><span class="chip">TensorFlow</span>
-            <span class="chip">NumPy</span><span class="chip">Pandas</span>
-            <span class="chip">SQLite</span><span class="chip">MySQL</span>
-            <span class="chip">Git</span><span class="chip">GitHub</span>
-            <span class="chip">Raylib</span><span class="chip">Neovim</span>
-          </div>
-        </section>
-
-        <section>
-          <h2>Educação</h2>
-          <div class="timeline-item">
-            <h3>Bacharelado em Ciência da Computação</h3>
-            <div class="meta">Universidade ABC | 2022 - 2026</div>
-          </div>
-        </section>
+      <div class="entry">
+        <p class="title">InGames</p>
+        <p>Prestação contínua de serviços — Software de Gestão Dedicado</p>
+        <ul class="dot-list">
+          <li>Software de gestão em Flask e FastAPI para locação de jogos e emissão de notas fiscais.</li>
+          <li>Dashboard analítico com Pandas e Matplotlib para relatórios e indicadores em tempo real.</li>
+        </ul>
       </div>
+    </section>
 
-      <div class="col-right">
-        <section>
-          <h2>Resumo</h2>
-          <p style="font-size:14px;">
-            Desenvolvedor apaixonado por programação de baixo nível e aprendizado contínuo.
-            Experiência prática com mais de 100 projetos entre linguagens, front-end, deep learning
-            e ferramentas próprias para Neovim. Foco em escrever código limpo, documentado e testável.
-          </p>
-        </section>
+    <section>
+      <h2 class="section-title">3. Contribuições para ONGs</h2>
+      <p>Informações das ONGs que autorizaram sua inclusão neste currículo.</p>
+      <ul class="dot-list">
+        <li><b>ONGs-ongasis-site</b> — site institucional. <span class="period">(2026 — concluído).</span> <a class="inlink" href="https://github.com/DaFi-1/ONGs-ongasis-templatesite" target="_blank" rel="noopener" title="Abrir repositório"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
+        <li><b>ONGs-ongfpd-site</b> — site institucional. <span class="period">(2026 — concluído).</span> <a class="inlink" href="https://github.com/DaFi-1/ONGs-ongfpd-templatesite" target="_blank" rel="noopener" title="Abrir repositório"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
+        <li><b>ONGs-ongcq-site</b> — site institucional. <span class="period">(2026 — concluído).</span> <a class="inlink" href="https://github.com/DaFi-1/ONGs-onfcq-templatesite" target="_blank" rel="noopener" title="Abrir repositório"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
+        <li><b>ONGs-onggad-site</b> — site institucional. <span class="period">(2026 — concluído).</span> <a class="inlink" href="https://github.com/DaFi-1/ONGs-onggad-templatesite" target="_blank" rel="noopener" title="Abrir repositório"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
+        <li><b>ONGs-ongbp-site</b> — site institucional. <span class="period">(2026 — concluído).</span> <a class="inlink" href="https://github.com/DaFi-1/ONGs-ongbp-site" target="_blank" rel="noopener" title="Abrir repositório"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
+        <li><b>ONGs-ongab-site</b> — site institucional. <span class="period">(em andamento).</span> <a class="inlink" href="https://github.com/DaFi-1" target="_blank" rel="noopener" title="Em breve"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
+        <li><b>ONGs-ongab-software</b> — software. <span class="period">(em andamento).</span> <a class="inlink" href="https://github.com/DaFi-1" target="_blank" rel="noopener" title="Em breve"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
+        <li><b>ONGs-onggad-software</b> — software. <span class="period">(em andamento).</span> <a class="inlink" href="https://github.com/DaFi-1" target="_blank" rel="noopener" title="Em breve"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
+      </ul>
+    </section>
 
-        <section>
-          <h2>Experiência Profissional</h2>
-          <div class="timeline-item">
-            <h3>Desenvolvedor de Software — TechNova Soluções</h3>
-            <div class="meta">Março 2024 - Presente</div>
-            <ul>
-              <li>Desenvolvimento de APIs com Flask e Django usadas por +2.000 usuários.</li>
-              <li>Containnerização de serviços com Docker, reduzindo tempo de deploy em 40%.</li>
-              <li>Modelos de machine learning com PyTorch para análise de dados.</li>
-            </ul>
-          </div>
-          <div class="timeline-item">
-            <h3>Estagiário de Desenvolvimento — SoftLab</h3>
-            <div class="meta">Janeiro 2023 - Fevereiro 2024</div>
-            <ul>
-              <li>Manutenção de aplicações web em HTML, CSS e JavaScript.</li>
-              <li>Automação de tarefas internas com Python e shell script.</li>
-              <li>Versionamento e revisão de código com Git/GitHub.</li>
-            </ul>
-          </div>
-        </section>
-
-        <section>
-          <h2>Projetos</h2>
-          <div class="timeline-item">
-            <h3>100-Html-Css-Js-Project</h3>
-            <div class="meta">HTML, CSS, JS</div>
-            <ul><li>Coleção de 100 projetos de front-end praticando layout, animação e interação.</li></ul>
-          </div>
-          <div class="timeline-item">
-            <h3>PerceptronGuide &amp; DeepLearningRoadmap</h3>
-            <div class="meta">Python, PyTorch</div>
-            <ul><li>Guias práticos para estudo de redes neurais e roadmap de deep learning.</li></ul>
-          </div>
-          <div class="timeline-item">
-            <h3>tasknvim · tabindex · bolinhax · winhopxx</h3>
-            <div class="meta">Neovim, Lua</div>
-            <ul><li>Plugins próprios para Neovim: gerenciador de tarefas, navegação e organização.</li></ul>
-          </div>
-          <div class="timeline-item">
-            <h3>100-Raylib-Projects</h3>
-            <div class="meta">Raylib (C)</div>
-            <ul><li>Estudos de game dev em C com a biblioteca Raylib.</li></ul>
-          </div>
-        </section>
-
-        <section>
-          <h2>Certificações</h2>
-          <ul class="contact" style="list-style: disc; padding-left: 18px;">
-            <li>Formação Python Developer — Plataforma XYZ (2024)</li>
-            <li>Desenvolvimento Web com Django — Plataforma XYZ (2023)</li>
-            <li>Git e GitHub do básico ao avançado — Plataforma XYZ (2023)</li>
-          </ul>
-        </section>
+    <section>
+      <h2 class="section-title">4. Formação Acadêmica / Titulação</h2>
+      <div class="entry">
+        <p class="title">Ensino Médio Completo</p>
+        <p><span class="period">(finalizado em 2022)</span></p>
       </div>
-    </main>
+    </section>
+
+    <section>
+      <h2 class="section-title">5. Certificações</h2>
+      <ul class="dot-list">
+        <li>Formação Python Developer — Plataforma XYZ (2024). <span class="period">120h.</span></li>
+        <li>Desenvolvimento Web com Django — Plataforma XYZ (2023). <span class="period">60h.</span></li>
+        <li>Git e GitHub do básico ao avançado — Plataforma XYZ (2023). <span class="period">40h.</span></li>
+        <li>Introdução a Deep Learning com PyTorch — Plataforma XYZ (2024). <span class="period">80h.</span></li>
+        <li>Total: 33 certificações concluídas. <a class="link" href="https://github.com/DaFi-1" target="_blank" rel="noopener">Ver todas as certificações</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="section-title">6. Projetos Pessoais</h2>
+      <ol class="num-list">
+        <li><b>nmget</b> — aplicação web em Flask para consulta de dados. <span class="period">(2024).</span></li>
+        <li><b>fiwm</b> — window manager para X11 desenvolvido em C. <span class="period">(2024).</span></li>
+        <li><b>PerceptronGuide</b> — guia prático de redes neurais em Python. <span class="period">(2024).</span></li>
+        <li><b>tasknvim</b> — plugin de gerenciamento de tarefas para Neovim em Lua. <span class="period">(2024).</span></li>
+        <li><b>100-Raylib-Projects</b> — estudo da linguagem C aplicada em motores gráficos. <span class="period">(2024 – em desenvolvimento).</span></li>
+        <li>Total de projetos: 101 projetos. <a class="link" href="https://github.com/DaFi-1" target="_blank" rel="noopener">Ver todos os projetos</a></li>
+      </ol>
+    </section>
+
+    <section>
+      <h2 class="section-title">7. Idiomas</h2>
+      <ul class="dot-list">
+        <li>Português — nativo.</li>
+        <li>Inglês — nível B2.</li>
+      </ul>
+    </section>
   </div>
 </body>
 </html>

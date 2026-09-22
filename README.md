@@ -30,7 +30,7 @@
 </table>
  -->
  
-<h3 id="project-overview">📁 Projects Overview - 101 | 🎓 Certifications - 30 </h3>  
+<h3 id="project-overview">📁 Projects Overview - 101 | 🎓 Certifications - 33 </h3>  
 
 <div style="margin-left: 1.5em;">
 
@@ -102,7 +102,7 @@
 
  
   <details id="ebooks">
-  <summary><a href="https://github.com/DaFi-1/DaFi-1/blob/main/DaFi.md">Ebooks</a> <span style="font-size:12px; color:#666;">(10 projects)</span></summary>
+  <summary><a href="https://github.com/DaFi-1/DaFi-1/blob/main/DaFi.md">Ebooks</a> <span style="font-size:12px; color:#666;">(9 projects)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Ebook-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>
@@ -136,9 +136,9 @@
   <tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/ONGs-onfcq-templatesite.git">ONGs-ongcq-site</a></td><td style="padding:2px 4px;">✅</td></tr>
   <tr><td style="padding:2px 4px;">4</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/ONGs-onggad-templatesite.git">ONGs-onggad-site</a></td><td style="padding:2px 4px;">✅</td></tr>
   <tr><td style="padding:2px 4px;">5</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/ONGs-ongbp-site.git">ONGs-ongbp-site</a></td><td style="padding:2px 4px;">✅</td></tr>
-  <tr><td style="padding:2px 4px;">6</td><td style="padding:2px 4px;"><a href=" ">ONGs-ongab-site</a></td><td style="padding:2px 4px;">❌</td></tr>
-  <tr><td style="padding:2px 4px;">7</td><td style="padding:2px 4px;"><a href=" ">ONGs-ongab-software</a></td><td style="padding:2px 4px;">❌</td></tr>
-  <tr><td style="padding:2px 4px;">8</td><td style="padding:2px 4px;"><a href=" ">ONGs-onggad-software</a></td><td style="padding:2px 4px;">❌</td></tr>
+  <tr><td style="padding:2px 4px;">6</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1">ONGs-ongab-site</a></td><td style="padding:2px 4px;">❌</td></tr>
+  <tr><td style="padding:2px 4px;">7</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1">ONGs-ongab-software</a></td><td style="padding:2px 4px;">❌</td></tr>
+  <tr><td style="padding:2px 4px;">8</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1">ONGs-onggad-software</a></td><td style="padding:2px 4px;">❌</td></tr>
 
    </table>
   </details>
@@ -150,7 +150,7 @@
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">DevOps-Project</th><th style="padding:2px 4px;">Stack</th><th style="padding:2px 4px; width:110px;"></th></tr>
-  <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/10-Docker-Simple-project.git">dflib</a></td><td style="padding:2px 4px;">Python</td><td style="padding:2px 4px;">❌</td>
+  <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1">dflib</a></td><td style="padding:2px 4px;">Python</td><td style="padding:2px 4px;">❌</td>
   </tr>
 
 
@@ -202,13 +202,13 @@
 
 
 
-  <details id="frontend">
-  <summary><a href="#">GameDev</a> <span style="font-size:12px; color:#666;">(2 project) <img src="https://img.shields.io/badge/+20-limegreen" width="30px"/></span></summary>
+  <details id="gamedev">
+  <summary><a href="#">GameDev</a> <span style="font-size:12px; color:#666;">(2 projects) <img src="https://img.shields.io/badge/+20-limegreen" width="30px"/></span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">FrontEnd-Project</th><th style="padding:2px 4px;">Stack</th><th style="padding:2px 4px; width:110px;"></th></tr>
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/100-Raylib-Projects.git">100-Raylib-Projects</a></td><td style="padding:2px 4px;">Raylib (C)</td><td style="padding:2px 4px;">❌</td></tr>
-  <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="">OpenZ</a></td><td style="padding:2px 4px;">Raylib (C)</td><td style="padding:2px 4px;">❌</td></tr>
+  <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1">OpenZ</a></td><td style="padding:2px 4px;">Raylib (C)</td><td style="padding:2px 4px;">❌</td></tr>
 
   </table>
   </details>
@@ -230,8 +230,8 @@
 
 
 
-  <details id="deeplearning">
-  <summary><a href="#">Software Engine</a> <span style="font-size:12px; color:#666;">(1 project)</span></summary>
+  <details id="testing">
+  <summary><a href="#">Testing</a> <span style="font-size:12px; color:#666;">(1 project)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Other-Project</th><th style="padding:2px 4px;">Stack</th><th style="padding:2px 4px; width:110px;"></th></tr>
@@ -239,7 +239,7 @@
   </table>
   </details>
 
-  <details id="deeplearning">
+  <details id="neovim">
   <summary><a href="#">NeoVim</a> <span style="font-size:12px; color:#666;">(4 project)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
@@ -251,7 +251,7 @@
   </table>
   </details>
 
-  <details id="deeplearning">
+  <details id="forks">
   <summary><a href="#">Forks</a> <span style="font-size:12px; color:#666;">(5 project)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
@@ -264,7 +264,7 @@
   </table>
   </details>
 
-  <details id="deeplearning">
+  <details id="trash">
   <summary><a href="#">Trash</a> <span style="font-size:12px; color:#666;">(3 project)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
@@ -276,7 +276,7 @@
   </details>
 
   <details id="Gaming-Diary">
-  <summary><a href="#">Gaming-Diary</a> <span style="font-size:12px; color:#666;">(0 project)</span></summary>
+  <summary><a href="#">Gaming-Diary</a> <span style="font-size:12px; color:#666;">(1 project)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Other-Project</th><th style="padding:2px 4px; width:110px;"></th></tr>

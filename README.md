@@ -138,7 +138,8 @@
   <tr><td style="padding:2px 4px;">5</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/ONGs-ongbp-site.git">ONGs-ongbp-site</a></td><td style="padding:2px 4px;">✅</td></tr>
   <tr><td style="padding:2px 4px;">6</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1">ONGs-ongab-site</a></td><td style="padding:2px 4px;">❌</td></tr>
   <tr><td style="padding:2px 4px;">7</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1">ONGs-ongab-software</a></td><td style="padding:2px 4px;">❌</td></tr>
-  <tr><td style="padding:2px 4px;">8</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1">ONGs-onggad-software</a></td><td style="padding:2px 4px;">❌</td></tr>
+  <tr><td style="padding:2px 4px;">8</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1">ONGs-ongbp-software</a></td><td style="padding:2px 4px;">✅ </td></tr>
+  <tr><td style="padding:2px 4px;">9</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1">ONGs-onggad-software</a></td><td style="padding:2px 4px;">❌</td></tr>
 
    </table>
   </details>

@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Currículo - Daniel Ferreira</title>
+  <title data-en='Curriculum - Daniel Ferreira'>Currículo - Daniel Ferreira</title>
+  <meta name="description" data-en='Curriculum of Daniel Ferreira: freelance full-stack developer, 33 certifications, 101 projects, contributions to NGOs and open source.' content="Currículo de Daniel Ferreira: desenvolvedor full-stack freelancer, 33 certificações, 101 projetos, contribuições para ONGs e open source.">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -28,6 +29,35 @@
       border-bottom: 1px solid #326C99;
       padding-bottom: 4px;
       margin-bottom: 12px;
+    }
+    .lang-switch {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 20px;
+      font-size: 11px;
+    }
+    .lang-switch .lang-label {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #777;
+    }
+    .lang-switch button {
+      font-family: inherit;
+      font-size: 11px;
+      letter-spacing: 1px;
+      padding: 2px 9px;
+      color: #326C99;
+      background: none;
+      border: 1px solid #b9c9d8;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    .lang-switch button[aria-pressed="true"] {
+      color: #fff;
+      background: #326C99;
+      border-color: #326C99;
     }
     .period {
       font-style: italic;
@@ -59,18 +89,23 @@
   </svg>
 
   <div class="page">
+    <div class="lang-switch" role="group" aria-label="Language / Idioma">
+      <span class="lang-label" data-en='Language'>Idioma</span>
+      <button type="button" data-lang="pt" aria-pressed="true" title="Português">PT</button>
+      <button type="button" data-lang="en" aria-pressed="false" title="English">EN</button>
+    </div>
     <section>
-      <h2 class="section-title">1. Contato</h2>
+      <h2 class="section-title" data-en='1. Contact'>1. Contato</h2>
       <ul class="dot-list">
         <li>GitHub: <a class="link" href="https://github.com/DaFi-1" target="_blank" rel="noopener">github.com/DaFi-1</a></li>
-        <li>Currículo: <a class="link" href="http://lattes.cnpq.br/" target="_blank" rel="noopener">lattes.cnpq.br</a></li>
+        <li data-en='Curriculum: &lt;a class=&quot;link&quot; href=&quot;http://lattes.cnpq.br/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;lattes.cnpq.br&lt;/a&gt;'>Currículo: <a class="link" href="http://lattes.cnpq.br/" target="_blank" rel="noopener">lattes.cnpq.br</a></li>
         <li>E-mail: <a class="link" href="mailto:dafi-talk.salvaging064@passinbox.com">dafi-talk.salvaging064@passinbox.com</a></li>
       </ul>
     </section>
 
     <section>
-      <h2 class="section-title">2. Resumo</h2>
-      <p>
+      <h2 class="section-title" data-en='2. Summary'>2. Resumo</h2>
+      <p data-en='Full-stack developer currently working as a freelancer. In my free time I voluntarily support NGOs by building websites, software and automation, as well as providing technical support and consulting to a few organizations.'>
         Desenvolvedor full-stack atuando atualmente como freelancer. Nas horas livres,
         contribuo voluntariamente com ONGs na criação de sites, software e automação,
         além de suporte técnico e consultoria em algumas organizações.
@@ -78,151 +113,186 @@
     </section>
 
     <section>
-      <h2 class="section-title">3. Experiência Profissional Freelance</h2>
-      <p>Informações das empresas que autorizaram sua inclusão neste currículo.</p>
+      <h2 class="section-title" data-en='3. Professional Experience (Freelance)'>3. Experiência Profissional Freelance</h2>
+      <p data-en='Information from the companies that authorized its inclusion in this curriculum.'>Informações das empresas que autorizaram sua inclusão neste currículo.</p>
       <div class="entry">
         <p class="title">Tech Leader</p>
-        <p>Software de gestão escolar — colaboração sem fins lucrativos</p>
+        <p data-en='School management software — non-profit collaboration'>Software de gestão escolar — colaboração sem fins lucrativos</p>
         <ul class="dot-list">
-          <li>Liderança técnica de uma equipe de três pessoas, com colaboração remota e sem fins lucrativos aos finais de semana.</li>
-          <li>Desenvolvimento de um sistema de gestão para uma escola na Guiné, África, pensado para se adaptar às limitações de recursos do local.</li>
-          <li>Tecnologias: Flask e Python; hospedagem prevista em um servidor disponibilizado voluntariamente.</li>
+          <li data-en='Technical leadership of a three-person team, working remotely and on a non-profit basis on weekends.'>Liderança técnica de uma equipe de três pessoas, com colaboração remota e sem fins lucrativos aos finais de semana.</li>
+          <li data-en='Development of a management system for a school in Guinea, Africa, designed to adapt to the local resource constraints.'>Desenvolvimento de um sistema de gestão para uma escola na Guiné, África, pensado para se adaptar às limitações de recursos do local.</li>
+          <li data-en='Technologies: Flask and Python; hosting planned on a server made available voluntarily.'>Tecnologias: Flask e Python; hospedagem prevista em um servidor disponibilizado voluntariamente.</li>
         </ul>
       </div>
       <div class="entry">
         <p class="title">JapanGames</p>
-        <p>Prestação contínua de serviços — Software ERP</p>
+        <p data-en='Ongoing services — ERP software'>Prestação contínua de serviços — Software ERP</p>
         <ul class="dot-list">
-          <li>Sistema em Django, SQLAlchemy e C, integrado à API do Discord para logs e alertas em tempo real.</li>
-          <li>Backend, integração entre serviços e manutenção contínua.</li>
+          <li data-en='System built with Django, SQLAlchemy and C, integrated with the Discord API for real-time logs and alerts.'>Sistema em Django, SQLAlchemy e C, integrado à API do Discord para logs e alertas em tempo real.</li>
+          <li data-en='Backend, integration between services and continuous maintenance.'>Backend, integração entre serviços e manutenção contínua.</li>
         </ul>
       </div>
       <div class="entry">
         <p class="title">ONGs</p>
-        <p>Suporte técnico e consultoria — contribuição voluntária e contínua</p>
+        <p data-en='Technical support and consulting — voluntary, ongoing contribution'>Suporte técnico e consultoria — contribuição voluntária e contínua</p>
         <ul class="dot-list">
-          <li>Manutenção e edição de sites, software e automações já entregues, corrigindo falhas, aplicando melhorias e mantendo tudo atualizado.</li>
-          <li>Participação na tomada de decisão em alguns projetos propostos pelas ONGs, desde o planejamento até a escolha das soluções técnicas a adotar.</li>
-          <li>Suporte técnico 100% remoto — as ONGs estão espalhadas por todo o Brasil, então todo o atendimento às equipes e voluntários é feito à distância.</li>
+          <li data-en='Maintenance and editing of websites, software and automations already delivered, fixing bugs, applying improvements and keeping everything up to date.'>Manutenção e edição de sites, software e automações já entregues, corrigindo falhas, aplicando melhorias e mantendo tudo atualizado.</li>
+          <li data-en='Participation in decision making on some projects proposed by the NGOs, from planning through the choice of the technical solutions to adopt.'>Participação na tomada de decisão em alguns projetos propostos pelas ONGs, desde o planejamento até a escolha das soluções técnicas a adotar.</li>
+          <li data-en='Technical support fully remote — the NGOs are spread across Brazil, so all assistance to teams and volunteers is provided remotely.'>Suporte técnico 100% remoto — as ONGs estão espalhadas por todo o Brasil, então todo o atendimento às equipes e voluntários é feito à distância.</li>
         </ul>
       </div>
       <div class="entry">
         <p class="title">InGames</p>
-        <p>Prestação contínua de serviços — Software de Gestão Dedicado</p>
+        <p data-en='Ongoing services — dedicated management software'>Prestação contínua de serviços — Software de Gestão Dedicado</p>
         <ul class="dot-list">
-          <li>Software de gestão em Flask e FastAPI para locação de jogos e emissão de notas fiscais.</li>
-          <li>Dashboard analítico com Pandas e Matplotlib para relatórios e indicadores em tempo real.</li>
+          <li data-en='Management software in Flask and FastAPI for game rental and invoice issuance.'>Software de gestão em Flask e FastAPI para locação de jogos e emissão de notas fiscais.</li>
+          <li data-en='Analytics dashboard with Pandas and Matplotlib for real-time reports and indicators.'>Dashboard analítico com Pandas e Matplotlib para relatórios e indicadores em tempo real.</li>
         </ul>
       </div>
     </section>
 
     <section>
-      <h2 class="section-title">4. Contribuições para ONGs</h2>
-      <p>Informações das ONGs que autorizaram sua inclusão neste currículo.</p>
+      <h2 class="section-title" data-en='4. NGO Contributions'>4. Contribuições para ONGs</h2>
+      <p data-en='Information from the NGOs that authorized its inclusion in this curriculum.'>Informações das ONGs que autorizaram sua inclusão neste currículo.</p>
       <ul class="dot-list">
-        <li><b>ONGs-ongasis-site</b> — site institucional. <span class="period">(concluído).</span> <a class="inlink" href="https://github.com/DaFi-1/ONGs-ongasis-templatesite" target="_blank" rel="noopener" title="Abrir repositório"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
-        <li><b>ONGs-ongfpd-site</b> — site institucional. <span class="period">(concluído).</span> <a class="inlink" href="https://github.com/DaFi-1/ONGs-ongfpd-templatesite" target="_blank" rel="noopener" title="Abrir repositório"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
-        <li><b>ONGs-ongcq-site</b> — site institucional. <span class="period">(concluído).</span> <a class="inlink" href="https://github.com/DaFi-1/ONGs-ongcq-templatesite" target="_blank" rel="noopener" title="Abrir repositório"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
-        <li><b>ONGs-onggad-site</b> — site institucional. <span class="period">(concluído).</span> <a class="inlink" href="https://github.com/DaFi-1/ONGs-onggad-templatesite" target="_blank" rel="noopener" title="Abrir repositório"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
-        <li><b>ONGs-ongbp-site</b> — site institucional. <span class="period">(concluído).</span> <a class="inlink" href="https://github.com/DaFi-1/ONGs-ongbp-site" target="_blank" rel="noopener" title="Abrir repositório"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
-        <li><b>ONGs-ongab-site</b> — site institucional. <span class="period">(em andamento).</span> <a class="inlink" href="https://github.com/DaFi-1" target="_blank" rel="noopener" title="Em breve"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
-        <li><b>ONGs-ongab-software</b> — software. <span class="period">(em andamento).</span> <a class="inlink" href="https://github.com/DaFi-1" target="_blank" rel="noopener" title="Em breve"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
-        <li><b>ONGs-ongbp-software</b> — software. <span class="period">(concluído).</span> <a class="inlink" href="https://github.com/DaFi-1/ONGs-ongbp-software" target="_blank" rel="noopener" title="Abrir repositório"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
-        <li><b>ONGs-onggad-software</b> — software. <span class="period">(em andamento).</span> <a class="inlink" href="https://github.com/DaFi-1" target="_blank" rel="noopener" title="Em breve"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
+        <li data-en='&lt;b&gt;ONGs-ongasis-site&lt;/b&gt; — institutional website. &lt;span class=&quot;period&quot;&gt;(completed).&lt;/span&gt; &lt;a class=&quot;inlink&quot; href=&quot;https://github.com/DaFi-1/ONGs-ongasis-templatesite&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; title=&quot;Open repository&quot;&gt;&lt;svg class=&quot;icon&quot;&gt;&lt;use href=&quot;#icon-ext&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;'><b>ONGs-ongasis-site</b> — site institucional. <span class="period">(concluído).</span> <a class="inlink" href="https://github.com/DaFi-1/ONGs-ongasis-templatesite" target="_blank" rel="noopener" title="Abrir repositório"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
+        <li data-en='&lt;b&gt;ONGs-ongfpd-site&lt;/b&gt; — institutional website. &lt;span class=&quot;period&quot;&gt;(completed).&lt;/span&gt; &lt;a class=&quot;inlink&quot; href=&quot;https://github.com/DaFi-1/ONGs-ongfpd-templatesite&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; title=&quot;Open repository&quot;&gt;&lt;svg class=&quot;icon&quot;&gt;&lt;use href=&quot;#icon-ext&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;'><b>ONGs-ongfpd-site</b> — site institucional. <span class="period">(concluído).</span> <a class="inlink" href="https://github.com/DaFi-1/ONGs-ongfpd-templatesite" target="_blank" rel="noopener" title="Abrir repositório"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
+        <li data-en='&lt;b&gt;ONGs-ongcq-site&lt;/b&gt; — institutional website. &lt;span class=&quot;period&quot;&gt;(completed).&lt;/span&gt; &lt;a class=&quot;inlink&quot; href=&quot;https://github.com/DaFi-1/ONGs-ongcq-templatesite&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; title=&quot;Open repository&quot;&gt;&lt;svg class=&quot;icon&quot;&gt;&lt;use href=&quot;#icon-ext&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;'><b>ONGs-ongcq-site</b> — site institucional. <span class="period">(concluído).</span> <a class="inlink" href="https://github.com/DaFi-1/ONGs-ongcq-templatesite" target="_blank" rel="noopener" title="Abrir repositório"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
+        <li data-en='&lt;b&gt;ONGs-onggad-site&lt;/b&gt; — institutional website. &lt;span class=&quot;period&quot;&gt;(completed).&lt;/span&gt; &lt;a class=&quot;inlink&quot; href=&quot;https://github.com/DaFi-1/ONGs-onggad-templatesite&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; title=&quot;Open repository&quot;&gt;&lt;svg class=&quot;icon&quot;&gt;&lt;use href=&quot;#icon-ext&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;'><b>ONGs-onggad-site</b> — site institucional. <span class="period">(concluído).</span> <a class="inlink" href="https://github.com/DaFi-1/ONGs-onggad-templatesite" target="_blank" rel="noopener" title="Abrir repositório"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
+        <li data-en='&lt;b&gt;ONGs-ongbp-site&lt;/b&gt; — institutional website. &lt;span class=&quot;period&quot;&gt;(completed).&lt;/span&gt; &lt;a class=&quot;inlink&quot; href=&quot;https://github.com/DaFi-1/ONGs-ongbp-site&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; title=&quot;Open repository&quot;&gt;&lt;svg class=&quot;icon&quot;&gt;&lt;use href=&quot;#icon-ext&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;'><b>ONGs-ongbp-site</b> — site institucional. <span class="period">(concluído).</span> <a class="inlink" href="https://github.com/DaFi-1/ONGs-ongbp-site" target="_blank" rel="noopener" title="Abrir repositório"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
+        <li data-en='&lt;b&gt;ONGs-ongab-site&lt;/b&gt; — institutional website. &lt;span class=&quot;period&quot;&gt;(in progress).&lt;/span&gt; &lt;a class=&quot;inlink&quot; href=&quot;https://github.com/DaFi-1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; title=&quot;Coming soon&quot;&gt;&lt;svg class=&quot;icon&quot;&gt;&lt;use href=&quot;#icon-ext&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;'><b>ONGs-ongab-site</b> — site institucional. <span class="period">(em andamento).</span> <a class="inlink" href="https://github.com/DaFi-1" target="_blank" rel="noopener" title="Em breve"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
+        <li data-en='&lt;b&gt;ONGs-ongab-software&lt;/b&gt; — software. &lt;span class=&quot;period&quot;&gt;(in progress).&lt;/span&gt; &lt;a class=&quot;inlink&quot; href=&quot;https://github.com/DaFi-1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; title=&quot;Coming soon&quot;&gt;&lt;svg class=&quot;icon&quot;&gt;&lt;use href=&quot;#icon-ext&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;'><b>ONGs-ongab-software</b> — software. <span class="period">(em andamento).</span> <a class="inlink" href="https://github.com/DaFi-1" target="_blank" rel="noopener" title="Em breve"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
+        <li data-en='&lt;b&gt;ONGs-ongbp-software&lt;/b&gt; — software. &lt;span class=&quot;period&quot;&gt;(completed).&lt;/span&gt; &lt;a class=&quot;inlink&quot; href=&quot;https://github.com/DaFi-1/ONGs-ongbp-software&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; title=&quot;Open repository&quot;&gt;&lt;svg class=&quot;icon&quot;&gt;&lt;use href=&quot;#icon-ext&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;'><b>ONGs-ongbp-software</b> — software. <span class="period">(concluído).</span> <a class="inlink" href="https://github.com/DaFi-1/ONGs-ongbp-software" target="_blank" rel="noopener" title="Abrir repositório"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
+        <li data-en='&lt;b&gt;ONGs-onggad-software&lt;/b&gt; — software. &lt;span class=&quot;period&quot;&gt;(in progress).&lt;/span&gt; &lt;a class=&quot;inlink&quot; href=&quot;https://github.com/DaFi-1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; title=&quot;Coming soon&quot;&gt;&lt;svg class=&quot;icon&quot;&gt;&lt;use href=&quot;#icon-ext&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;'><b>ONGs-onggad-software</b> — software. <span class="period">(em andamento).</span> <a class="inlink" href="https://github.com/DaFi-1" target="_blank" rel="noopener" title="Em breve"><svg class="icon"><use href="#icon-ext"/></svg></a></li>
       </ul>
     </section>
 
     <section id="certifications">
-      <h2 class="section-title">5. Certificações</h2>
+      <h2 class="section-title" data-en='5. Certifications'>5. Certificações</h2>
       <ul class="dot-list">
-        <li>Total: 33 certificações - 1130h. <a class="link" href="https://github.com/DaFi-1" target="_blank" rel="noopener">Ver todas as certificações</a></li>
+        <li data-en='Total: 33 certifications - 1130h. &lt;a class=&quot;link&quot; href=&quot;https://github.com/DaFi-1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;See all certifications&lt;/a&gt;'>Total: 33 certificações - 1130h. <a class="link" href="https://github.com/DaFi-1" target="_blank" rel="noopener">Ver todas as certificações</a></li>
       </ul>
-      <p class="title">2023 - 18 certificações - 653h</p>
+      <p class="title" data-en='2023 - 18 certifications - 653h'>2023 - 18 certificações - 653h</p>
       <ul class="dot-list">
-        <li><a class="link" href="certification/2023/cerification-13-131h-(2023).jpg">Curso de Python 3 do Básico ao Avançado (com projetos reais)</a> (2023). <span class="period">131h.</span></li>
-        <li><a class="link" href="certification/2023/cerification-16-116h-(2023).jpg">Desenvolvimento Web Completo - 20 cursos + 20 projetos</a> (2023). <span class="period">116h.</span></li>
-        <li><a class="link" href="certification/2023/cerification-15-89h-(2023).jpg">Curso Web Frontend Fundamentos: HTML, CSS e JS + 10 Projetos</a> (2023). <span class="period">89h.</span></li>
-        <li><a class="link" href="certification/2023/cerification-18-59h-(2023).jpg">O curso completo de Banco de Dados e SQL, sem mistérios!</a> (2023). <span class="period">59h.</span></li>
-        <li><a class="link" href="certification/2023/cerification-17-46h-(2023).jpg">Formação Cientista de Dados: O Curso Completo [2023]</a> (2023). <span class="period">46h.</span></li>
-        <li><a class="link" href="certification/2023/cerification-3-42h-(2023).jpg">Formação Profissional Python: Curso Completo + Projetos</a> (2023). <span class="period">42h.</span></li>
-        <li><a class="link" href="certification/2023/cerification-10-37h-(2023).jpg">Programação Web com Python e Django Framework: Essencial</a> (2023). <span class="period">37h.</span></li>
-        <li><a class="link" href="certification/2023/cerification-11-31h-(2023).jpg">Algoritmos e Lógica de Programação 2023 - O Curso COMPLETO</a> (2023). <span class="period">31h.</span></li>
-        <li><a class="link" href="certification/2023/cerification-6-17h-(2023).jpg">Bootstrap 5 do básico ao avançado (com 4 projetos)</a> (2023). <span class="period">17h.</span></li>
-        <li><a class="link" href="certification/2023/cerification-5-15h-(2023).jpg">SQLAlchemy: Essencial</a> (2023). <span class="period">15h.</span></li>
-        <li><a class="link" href="certification/2023/cerification-4-13h-(2023).jpg">FastAPI - APIs Modernas e Assíncronas com Python</a> (2023). <span class="period">13h.</span></li>
-        <li><a class="link" href="certification/2023/cerification-8-11h-(2023).jpg">Padrões de Projeto (Design Patterns) com Python</a> (2023). <span class="period">11h.</span></li>
-        <li><a class="link" href="certification/2023/cerification-9-10h-(2023).jpg">Programação em Python aplicada a Problemas de Biologia</a> (2023). <span class="period">10h.</span></li>
-        <li><a class="link" href="certification/2023/cerification-7-9h-(2023).jpg">Programação Concorrente e Assíncrona com Python</a> (2023). <span class="period">9h.</span></li>
-        <li><a class="link" href="certification/2023/cerification-1-8h-(2023).jpg">NumPy: Tudo sobre a Biblioteca Python</a> (2023). <span class="period">8h.</span></li>
-        <li><a class="link" href="certification/2023/cerification-2-7h-(2023).jpg">Manipulação e Análise de Dados com Python e Pandas</a> (2023). <span class="period">7h.</span></li>
-        <li><a class="link" href="certification/2023/cerification-12-6h-(2023).jpg">Programação Orientada a Objetos com Python</a> (2023). <span class="period">6h.</span></li>
-        <li><a class="link" href="certification/2023/cerification-14-6h-(2023).jpg">Aprendizagem por Reforço com Deep Learning, PyTorch e Python</a> (2023). <span class="period">6h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2023/cerification-13-131h-(2023).jpg&quot;&gt;Python 3 Course: From Beginner to Advanced (with real projects)&lt;/a&gt; (2023). &lt;span class=&quot;period&quot;&gt;131h.&lt;/span&gt;'><a class="link" href="certification/2023/cerification-13-131h-(2023).jpg">Curso de Python 3 do Básico ao Avançado (com projetos reais)</a> (2023). <span class="period">131h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2023/cerification-16-116h-(2023).jpg&quot;&gt;Complete Web Development - 20 courses + 20 projects&lt;/a&gt; (2023). &lt;span class=&quot;period&quot;&gt;116h.&lt;/span&gt;'><a class="link" href="certification/2023/cerification-16-116h-(2023).jpg">Desenvolvimento Web Completo - 20 cursos + 20 projetos</a> (2023). <span class="period">116h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2023/cerification-15-89h-(2023).jpg&quot;&gt;Web Frontend Fundamentals: HTML, CSS and JS + 10 Projects&lt;/a&gt; (2023). &lt;span class=&quot;period&quot;&gt;89h.&lt;/span&gt;'><a class="link" href="certification/2023/cerification-15-89h-(2023).jpg">Curso Web Frontend Fundamentos: HTML, CSS e JS + 10 Projetos</a> (2023). <span class="period">89h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2023/cerification-18-59h-(2023).jpg&quot;&gt;The Complete Database and SQL Course, Demystified!&lt;/a&gt; (2023). &lt;span class=&quot;period&quot;&gt;59h.&lt;/span&gt;'><a class="link" href="certification/2023/cerification-18-59h-(2023).jpg">O curso completo de Banco de Dados e SQL, sem mistérios!</a> (2023). <span class="period">59h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2023/cerification-17-46h-(2023).jpg&quot;&gt;Data Scientist Formation: The Complete Course [2023]&lt;/a&gt; (2023). &lt;span class=&quot;period&quot;&gt;46h.&lt;/span&gt;'><a class="link" href="certification/2023/cerification-17-46h-(2023).jpg">Formação Cientista de Dados: O Curso Completo [2023]</a> (2023). <span class="period">46h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2023/cerification-3-42h-(2023).jpg&quot;&gt;Professional Python Formation: Complete Course + Projects&lt;/a&gt; (2023). &lt;span class=&quot;period&quot;&gt;42h.&lt;/span&gt;'><a class="link" href="certification/2023/cerification-3-42h-(2023).jpg">Formação Profissional Python: Curso Completo + Projetos</a> (2023). <span class="period">42h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2023/cerification-10-37h-(2023).jpg&quot;&gt;Web Programming with Python and Django Framework: Essentials&lt;/a&gt; (2023). &lt;span class=&quot;period&quot;&gt;37h.&lt;/span&gt;'><a class="link" href="certification/2023/cerification-10-37h-(2023).jpg">Programação Web com Python e Django Framework: Essencial</a> (2023). <span class="period">37h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2023/cerification-11-31h-(2023).jpg&quot;&gt;Algorithms and Programming Logic 2023 - The COMPLETE Course&lt;/a&gt; (2023). &lt;span class=&quot;period&quot;&gt;31h.&lt;/span&gt;'><a class="link" href="certification/2023/cerification-11-31h-(2023).jpg">Algoritmos e Lógica de Programação 2023 - O Curso COMPLETO</a> (2023). <span class="period">31h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2023/cerification-6-17h-(2023).jpg&quot;&gt;Bootstrap 5 from beginner to advanced (with 4 projects)&lt;/a&gt; (2023). &lt;span class=&quot;period&quot;&gt;17h.&lt;/span&gt;'><a class="link" href="certification/2023/cerification-6-17h-(2023).jpg">Bootstrap 5 do básico ao avançado (com 4 projetos)</a> (2023). <span class="period">17h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2023/cerification-5-15h-(2023).jpg&quot;&gt;SQLAlchemy: Essentials&lt;/a&gt; (2023). &lt;span class=&quot;period&quot;&gt;15h.&lt;/span&gt;'><a class="link" href="certification/2023/cerification-5-15h-(2023).jpg">SQLAlchemy: Essencial</a> (2023). <span class="period">15h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2023/cerification-4-13h-(2023).jpg&quot;&gt;FastAPI - Modern and Asynchronous APIs with Python&lt;/a&gt; (2023). &lt;span class=&quot;period&quot;&gt;13h.&lt;/span&gt;'><a class="link" href="certification/2023/cerification-4-13h-(2023).jpg">FastAPI - APIs Modernas e Assíncronas com Python</a> (2023). <span class="period">13h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2023/cerification-8-11h-(2023).jpg&quot;&gt;Design Patterns with Python&lt;/a&gt; (2023). &lt;span class=&quot;period&quot;&gt;11h.&lt;/span&gt;'><a class="link" href="certification/2023/cerification-8-11h-(2023).jpg">Padrões de Projeto (Design Patterns) com Python</a> (2023). <span class="period">11h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2023/cerification-9-10h-(2023).jpg&quot;&gt;Python Programming Applied to Biology Problems&lt;/a&gt; (2023). &lt;span class=&quot;period&quot;&gt;10h.&lt;/span&gt;'><a class="link" href="certification/2023/cerification-9-10h-(2023).jpg">Programação em Python aplicada a Problemas de Biologia</a> (2023). <span class="period">10h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2023/cerification-7-9h-(2023).jpg&quot;&gt;Concurrent and Asynchronous Programming with Python&lt;/a&gt; (2023). &lt;span class=&quot;period&quot;&gt;9h.&lt;/span&gt;'><a class="link" href="certification/2023/cerification-7-9h-(2023).jpg">Programação Concorrente e Assíncrona com Python</a> (2023). <span class="period">9h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2023/cerification-1-8h-(2023).jpg&quot;&gt;NumPy: Everything about the Python Library&lt;/a&gt; (2023). &lt;span class=&quot;period&quot;&gt;8h.&lt;/span&gt;'><a class="link" href="certification/2023/cerification-1-8h-(2023).jpg">NumPy: Tudo sobre a Biblioteca Python</a> (2023). <span class="period">8h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2023/cerification-2-7h-(2023).jpg&quot;&gt;Data Wrangling and Analysis with Python and Pandas&lt;/a&gt; (2023). &lt;span class=&quot;period&quot;&gt;7h.&lt;/span&gt;'><a class="link" href="certification/2023/cerification-2-7h-(2023).jpg">Manipulação e Análise de Dados com Python e Pandas</a> (2023). <span class="period">7h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2023/cerification-12-6h-(2023).jpg&quot;&gt;Object-Oriented Programming with Python&lt;/a&gt; (2023). &lt;span class=&quot;period&quot;&gt;6h.&lt;/span&gt;'><a class="link" href="certification/2023/cerification-12-6h-(2023).jpg">Programação Orientada a Objetos com Python</a> (2023). <span class="period">6h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2023/cerification-14-6h-(2023).jpg&quot;&gt;Reinforcement Learning with Deep Learning, PyTorch and Python&lt;/a&gt; (2023). &lt;span class=&quot;period&quot;&gt;6h.&lt;/span&gt;'><a class="link" href="certification/2023/cerification-14-6h-(2023).jpg">Aprendizagem por Reforço com Deep Learning, PyTorch e Python</a> (2023). <span class="period">6h.</span></li>
       </ul>
-      <p class="title">2024 - 15 certificações - 477h</p>
+      <p class="title" data-en='2024 - 15 certifications - 477h'>2024 - 15 certificações - 477h</p>
       <ul class="dot-list">
-        <li><a class="link" href="certification/2024/cerification-7-108h-(2024).jpg">Aprenda tudo sobre o Linux! Completo e atualizado v2024!</a> (2024). <span class="period">108h.</span></li>
-        <li><a class="link" href="certification/2024/cerification-13-80h-(2024).jpg">Curso de Django Web Framework e Django Rest Framework (DRF)</a> (2024). <span class="period">80h.</span></li>
-        <li><a class="link" href="certification/2024/cerification-3-42h-(2024).jpg">Machine Learning e Data Science com Python de A a Z</a> (2024). <span class="period">42h.</span></li>
-        <li><a class="link" href="certification/2024/cerification-1-39h-(2024).jpg">JavaScript - Curso COMPLETO com 6 Projetos REAIS</a> (2024). <span class="period">39h.</span></li>
-        <li><a class="link" href="certification/2024/cerification-14-36h-(2024).jpg">Machine Learning com Python</a> (2024). <span class="period">36h.</span></li>
-        <li><a class="link" href="certification/2024/cerification-2-27h-(2024).jpg">Formação Completa Inteligência Artificial e Machine Learning</a> (2024). <span class="period">27h.</span></li>
-        <li><a class="link" href="certification/2024/cerification-5-27h-(2024).jpg">Programação em JavaScript do básico ao avançado</a> (2024). <span class="period">27h.</span></li>
-        <li><a class="link" href="certification/2024/cerification-8-26h-(2024).jpg">Inteligência Artificial e Machine Learning: O Guia Completo</a> (2024). <span class="period">26h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2024/cerification-7-108h-(2024).jpg&quot;&gt;Learn Everything About Linux! Complete and Updated v2024!&lt;/a&gt; (2024). &lt;span class=&quot;period&quot;&gt;108h.&lt;/span&gt;'><a class="link" href="certification/2024/cerification-7-108h-(2024).jpg">Aprenda tudo sobre o Linux! Completo e atualizado v2024!</a> (2024). <span class="period">108h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2024/cerification-13-80h-(2024).jpg&quot;&gt;Django Web Framework and Django REST Framework (DRF) Course&lt;/a&gt; (2024). &lt;span class=&quot;period&quot;&gt;80h.&lt;/span&gt;'><a class="link" href="certification/2024/cerification-13-80h-(2024).jpg">Curso de Django Web Framework e Django Rest Framework (DRF)</a> (2024). <span class="period">80h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2024/cerification-3-42h-(2024).jpg&quot;&gt;Machine Learning and Data Science with Python from A to Z&lt;/a&gt; (2024). &lt;span class=&quot;period&quot;&gt;42h.&lt;/span&gt;'><a class="link" href="certification/2024/cerification-3-42h-(2024).jpg">Machine Learning e Data Science com Python de A a Z</a> (2024). <span class="period">42h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2024/cerification-1-39h-(2024).jpg&quot;&gt;JavaScript - COMPLETE Course with 6 REAL Projects&lt;/a&gt; (2024). &lt;span class=&quot;period&quot;&gt;39h.&lt;/span&gt;'><a class="link" href="certification/2024/cerification-1-39h-(2024).jpg">JavaScript - Curso COMPLETO com 6 Projetos REAIS</a> (2024). <span class="period">39h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2024/cerification-14-36h-(2024).jpg&quot;&gt;Machine Learning with Python&lt;/a&gt; (2024). &lt;span class=&quot;period&quot;&gt;36h.&lt;/span&gt;'><a class="link" href="certification/2024/cerification-14-36h-(2024).jpg">Machine Learning com Python</a> (2024). <span class="period">36h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2024/cerification-2-27h-(2024).jpg&quot;&gt;Complete Artificial Intelligence and Machine Learning Formation&lt;/a&gt; (2024). &lt;span class=&quot;period&quot;&gt;27h.&lt;/span&gt;'><a class="link" href="certification/2024/cerification-2-27h-(2024).jpg">Formação Completa Inteligência Artificial e Machine Learning</a> (2024). <span class="period">27h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2024/cerification-5-27h-(2024).jpg&quot;&gt;JavaScript Programming from Beginner to Advanced&lt;/a&gt; (2024). &lt;span class=&quot;period&quot;&gt;27h.&lt;/span&gt;'><a class="link" href="certification/2024/cerification-5-27h-(2024).jpg">Programação em JavaScript do básico ao avançado</a> (2024). <span class="period">27h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2024/cerification-8-26h-(2024).jpg&quot;&gt;Artificial Intelligence and Machine Learning: The Complete Guide&lt;/a&gt; (2024). &lt;span class=&quot;period&quot;&gt;26h.&lt;/span&gt;'><a class="link" href="certification/2024/cerification-8-26h-(2024).jpg">Inteligência Artificial e Machine Learning: O Guia Completo</a> (2024). <span class="period">26h.</span></li>
         <li><a class="link" href="certification/2024/cerification-6-25h-(2024).jpg">Complete SQL and Databases Bootcamp</a> (2024). <span class="period">25h.</span></li>
         <li><a class="link" href="certification/2024/cerification-11-23h-(2024).jpg">Django - The Python Practical Guide</a> (2024). <span class="period">23h.</span></li>
         <li><a class="link" href="certification/2024/cerification-9-17h-(2024).jpg">The Git &amp; Github Bootcamp</a> (2024). <span class="period">17h.</span></li>
         <li><a class="link" href="certification/2024/cerification-12-10h-(2024).jpg">SQLite Databases Python Programming: (Build App and API)</a> (2024). <span class="period">10h.</span></li>
-        <li><a class="link" href="certification/2024/cerification-15-9h-(2024).jpg">Docker Com Python para Desenvolvedores</a> (2024). <span class="period">9h.</span></li>
-        <li><a class="link" href="certification/2024/cerification-10-6h-(2024).jpg">Git e Github do zero ao avançado</a> (2024). <span class="period">6h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2024/cerification-15-9h-(2024).jpg&quot;&gt;Docker with Python for Developers&lt;/a&gt; (2024). &lt;span class=&quot;period&quot;&gt;9h.&lt;/span&gt;'><a class="link" href="certification/2024/cerification-15-9h-(2024).jpg">Docker Com Python para Desenvolvedores</a> (2024). <span class="period">9h.</span></li>
+        <li data-en='&lt;a class=&quot;link&quot; href=&quot;certification/2024/cerification-10-6h-(2024).jpg&quot;&gt;Git and GitHub from Zero to Advanced&lt;/a&gt; (2024). &lt;span class=&quot;period&quot;&gt;6h.&lt;/span&gt;'><a class="link" href="certification/2024/cerification-10-6h-(2024).jpg">Git e Github do zero ao avançado</a> (2024). <span class="period">6h.</span></li>
         <li><a class="link" href="certification/2024/cerification-4-2h-(2024).jpg">Intro To SQLite Databases Programming for Python</a> (2024). <span class="period">2h.</span></li>
       </ul>
     </section>
 
     <section>
-      <h2 class="section-title">6. Projetos Pessoais</h2>
+      <h2 class="section-title" data-en='6. Personal Projects'>6. Projetos Pessoais</h2>
       <ul class="dot-list">
-        <li><b>nmget</b> — aplicação web em Flask para consulta de dados. <span class="period">(concluído).</span></li>
-        <li><b>fiwm</b> — gerenciador de janelas para X11 desenvolvido em C. <span class="period">(concluído).</span></li>
-        <li><b>lattes-html-sanitization</b> — ferramenta de sanitização de HTML para currículos Lattes. <span class="period">(concluído).</span></li>
-        <li><b>10-Docker-Project</b> — projeto de estudo de containerização com Docker. <span class="period">(concluído).</span></li>
-        <li><b>100-Html-Css-Js-Project</b> — projeto de frontend com HTML, CSS e JavaScript. <span class="period">(em desenvolvimento).</span></li>
-        <li><b>100-Pytest-Projects</b> — conjunto de projetos e exercícios em Python com Pytest. <span class="period">(concluído).</span></li>
-        <li><b>PerceptronGuide</b> — guia prático de redes neurais em Python. <span class="period">(concluído).</span></li>
-        <li><b>tasknvim</b> — plugin de gerenciamento de tarefas para Neovim em Lua. <span class="period">(concluído).</span></li>
-        <li>Total de projetos: 101 projetos. <a class="link" href="https://github.com/DaFi-1" target="_blank" rel="noopener">Ver todos os projetos</a></li>
+        <li data-en='&lt;b&gt;nmget&lt;/b&gt; — Flask web application for data queries.'><b>nmget</b> — aplicação web em Flask para consulta de dados.</li>
+        <li data-en='&lt;b&gt;fiwm&lt;/b&gt; — X11 window manager written in C.'><b>fiwm</b> — gerenciador de janelas para X11 desenvolvido em C.</li>
+        <li data-en='&lt;b&gt;lattes-html-sanitization&lt;/b&gt; — HTML sanitization tool for Lattes resumes.'><b>lattes-html-sanitization</b> — ferramenta de sanitização de HTML para currículos Lattes.</li>
+        <li data-en='&lt;b&gt;10-Docker-Project&lt;/b&gt; — Containerization study project with Docker.'><b>10-Docker-Project</b> — projeto de estudo de containerização com Docker.</li>
+        <li data-en='&lt;b&gt;100-Html-Css-Js-Project&lt;/b&gt; — Frontend project with HTML, CSS and JavaScript. &lt;span class=&quot;period&quot;&gt;(in development).&lt;/span&gt;'><b>100-Html-Css-Js-Project</b> — projeto de frontend com HTML, CSS e JavaScript. <span class="period">(em desenvolvimento).</span></li>
+        <li data-en='&lt;b&gt;100-Pytest-Projects&lt;/b&gt; — Collection of projects and exercises in Python with Pytest.'><b>100-Pytest-Projects</b> — conjunto de projetos e exercícios em Python com Pytest.</li>
+        <li data-en='&lt;b&gt;PerceptronGuide&lt;/b&gt; — Hands-on guide to neural networks in Python.'><b>PerceptronGuide</b> — guia prático de redes neurais em Python.</li>
+        <li data-en='&lt;b&gt;tasknvim&lt;/b&gt; — Task management plugin for Neovim written in Lua.'><b>tasknvim</b> — plugin de gerenciamento de tarefas para Neovim em Lua.</li>
+        <li data-en='Total: 101 projects. &lt;a class=&quot;link&quot; href=&quot;https://github.com/DaFi-1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;See all projects&lt;/a&gt;'>Total de projetos: 101 projetos. <a class="link" href="https://github.com/DaFi-1" target="_blank" rel="noopener">Ver todos os projetos</a></li>
       </ul>
     </section>
 
     <section>
-      <h2 class="section-title">7. Stacks</h2>
-      <p class="title">Stacks principais</p>
+      <h2 class="section-title" data-en='7. Stacks'>7. Stacks</h2>
+      <p class="title" data-en='Main stacks'>Stacks principais</p>
       <ul class="dot-list">
-        <li><b>Linguagens:</b> C, C++, Python, Lua e Shell.</li>
+        <li data-en='&lt;b&gt;Languages:&lt;/b&gt; C, C++, Python, Lua and Shell.'><b>Linguagens:</b> C, C++, Python, Lua e Shell.</li>
         <li><b>Frontend:</b> HTML5, CSS3 e JavaScript.</li>
         <li><b>Backend:</b> Python, Django, Flask e FastAPI.</li>
         <li><b>Machine learning:</b> PyTorch e TensorFlow.</li>
         <li><b>Data science:</b> NumPy, Pandas e Matplotlib.</li>
         <li><b>DevOps:</b> Docker.</li>
-        <li><b>Bancos de dados:</b> SQLite e MySQL.</li>
-        <li><b>Controle de versão:</b> Git e GitHub.</li>
+        <li data-en='&lt;b&gt;Databases:&lt;/b&gt; SQLite and MySQL.'><b>Bancos de dados:</b> SQLite e MySQL.</li>
+        <li data-en='&lt;b&gt;Version control:&lt;/b&gt; Git and GitHub.'><b>Controle de versão:</b> Git e GitHub.</li>
       </ul>
     </section>
 
     <section>
-      <h2 class="section-title">8. Formação Acadêmica / Titulação</h2>
+      <h2 class="section-title" data-en='8. Education'>8. Formação Acadêmica / Titulação</h2>
       <div class="entry">
-        <p class="title">Ensino Médio Completo</p>
-        <p><span class="period">(finalizado em 2022)</span></p>
+        <p class="title" data-en='High School (complete)'>Ensino Médio Completo</p>
+        <p><span class="period" data-en='(completed in 2022)'>(finalizado em 2022)</span></p>
       </div>
     </section>
 
     <section>
-      <h2 class="section-title">9. Idiomas</h2>
+      <h2 class="section-title" data-en='9. Languages'>9. Idiomas</h2>
       <ul class="dot-list">
-        <li>Português — nativo.</li>
-        <li>Inglês — nível B2.</li>
+        <li data-en='Portuguese — native.'>Português — nativo.</li>
+        <li data-en='English — B2 level.'>Inglês — nível B2.</li>
       </ul>
     </section>
   </div>
+
+  <script>
+    (function () {
+      var KEY = "cv-lang";
+      var els = Array.prototype.slice.call(document.querySelectorAll("[data-en]"));
+      var pt = els.map(function (el) {
+        return el.tagName === "META" ? el.getAttribute("content") : el.innerHTML;
+      });
+      var buttons = Array.prototype.slice.call(document.querySelectorAll(".lang-switch button"));
+
+      function apply(lang) {
+        els.forEach(function (el, i) {
+          var en = el.getAttribute("data-en");
+          if (el.tagName === "META") {
+            el.setAttribute("content", lang === "en" ? en : pt[i]);
+          } else {
+            el.innerHTML = lang === "en" ? en : pt[i];
+          }
+        });
+        document.documentElement.lang = lang === "en" ? "en" : "pt-BR";
+        buttons.forEach(function (b) {
+          b.setAttribute("aria-pressed", String(b.getAttribute("data-lang") === lang));
+        });
+        try { localStorage.setItem(KEY, lang); } catch (e) {}
+      }
+
+      buttons.forEach(function (b) {
+        b.addEventListener("click", function () { apply(b.getAttribute("data-lang")); });
+      });
+
+      var saved = null;
+      try { saved = localStorage.getItem(KEY); } catch (e) {}
+      apply(saved === "en" ? "en" : "pt");
+    })();
+  </script>
 </body>
 </html>

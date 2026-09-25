@@ -1,6 +1,6 @@
- 
+ <!--   
 ![MasterHead](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.weasyl.com%2F~fluffkevlar%2Fsubmissions%2F30165%2Fefb64790c6059bf9f32f9922bdfd36fad18bdd135aff5f67e99a7f0f29749042%2Ffluffkevlar-starfield-gif.gif&f=1&nofb=1&ipt=a9de411664d88a83ec9d8c5687d042bcf3bea032065b4f12ecbb4086d9a2b66f&ipo=images)
-
+ -->
 
  <!--   
 <table width="100%">
@@ -29,7 +29,7 @@
 </table>
  -->
  
-<h3 id="project-overview">📁 Projects Overview - 101 | 📚 44 Catalogued Projects | 🎓 Certifications - 33 - 1130h | 📄 <a href="https://dafi-1.github.io/DaFi-1/">Currículo</a></h3>
+<h3 id="project-overview">📁 Projects Overview - 101 | | 🎓 Certifications - 33 - 1130h | 📄 <a href="https://dafi-1.github.io/DaFi-1/">Currículo</a></h3>
 
 <div style="margin-left: 1.5em;">
 
@@ -130,7 +130,7 @@
 
 
   <details id="certifications">
-  <summary>Certifications <span style="font-size:12px; color:#666;">(33 certifications - 1130h)</span></summary>
+  <summary><a href="#">Certifications <span style="font-size:12px; color:#666;"></a>(33 certifications - 1130h)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;"><b>2023</b> - 18 certifications - 653h</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px;">Course</th><th style="padding:2px 4px; width:80px;">Hours</th><th style="padding:2px 4px; width:80px;">Year</th></tr>

@@ -129,6 +129,46 @@
 
 
 
+  <details id="certifications">
+  <summary>Certifications <span style="font-size:12px; color:#666;">(33 certifications)</span></summary>
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
+  <tr><th style="padding:2px 4px;">Certification</th><th style="padding:2px 4px; width:80px;">Hours</th><th style="padding:2px 4px; width:80px;">Year</th></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-1-8h-(2023).jpg" title="Abrir certificado">Certification 01</a></td><td style="padding:2px 4px;">8h</td><td style="padding:2px 4px;">2023</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-2-7h-(2023).jpg" title="Abrir certificado">Certification 02</a></td><td style="padding:2px 4px;">7h</td><td style="padding:2px 4px;">2023</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-3-42h-(2023).jpg" title="Abrir certificado">Certification 03</a></td><td style="padding:2px 4px;">42h</td><td style="padding:2px 4px;">2023</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-4-13h-(2023).jpg" title="Abrir certificado">Certification 04</a></td><td style="padding:2px 4px;">13h</td><td style="padding:2px 4px;">2023</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-5-15h-(2023).jpg" title="Abrir certificado">Certification 05</a></td><td style="padding:2px 4px;">15h</td><td style="padding:2px 4px;">2023</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-6-17h-(2023).jpg" title="Abrir certificado">Certification 06</a></td><td style="padding:2px 4px;">17h</td><td style="padding:2px 4px;">2023</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-7-9h-(2023).jpg" title="Abrir certificado">Certification 07</a></td><td style="padding:2px 4px;">9h</td><td style="padding:2px 4px;">2023</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-8-11h-(2023).jpg" title="Abrir certificado">Certification 08</a></td><td style="padding:2px 4px;">11h</td><td style="padding:2px 4px;">2023</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-9-10h-(2023).jpg" title="Abrir certificado">Certification 09</a></td><td style="padding:2px 4px;">10h</td><td style="padding:2px 4px;">2023</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-10-37h-(2023).jpg" title="Abrir certificado">Certification 10</a></td><td style="padding:2px 4px;">37h</td><td style="padding:2px 4px;">2023</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-11-31h-(2023).jpg" title="Abrir certificado">Certification 11</a></td><td style="padding:2px 4px;">31h</td><td style="padding:2px 4px;">2023</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-12-6h-(2023).jpg" title="Abrir certificado">Certification 12</a></td><td style="padding:2px 4px;">6h</td><td style="padding:2px 4px;">2023</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-13-131h-(2023).jpg" title="Abrir certificado">Certification 13</a></td><td style="padding:2px 4px;">131h</td><td style="padding:2px 4px;">2023</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-14-6h-(2023).jpg" title="Abrir certificado">Certification 14</a></td><td style="padding:2px 4px;">6h</td><td style="padding:2px 4px;">2023</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-15-89h-(2023).jpg" title="Abrir certificado">Certification 15</a></td><td style="padding:2px 4px;">89h</td><td style="padding:2px 4px;">2023</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-16-116h-(2023).jpg" title="Abrir certificado">Certification 16</a></td><td style="padding:2px 4px;">116h</td><td style="padding:2px 4px;">2023</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-17-46h-(2023).jpg" title="Abrir certificado">Certification 17</a></td><td style="padding:2px 4px;">46h</td><td style="padding:2px 4px;">2023</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-18-59h-(2023).jpg" title="Abrir certificado">Certification 18</a></td><td style="padding:2px 4px;">59h</td><td style="padding:2px 4px;">2023</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2024/cerification-1-39h-(2024).jpg" title="Abrir certificado">Certification 19</a></td><td style="padding:2px 4px;">39h</td><td style="padding:2px 4px;">2024</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2024/cerification-2-27h-(2024).jpg" title="Abrir certificado">Certification 20</a></td><td style="padding:2px 4px;">27h</td><td style="padding:2px 4px;">2024</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2024/cerification-3-42h-(2024).jpg" title="Abrir certificado">Certification 21</a></td><td style="padding:2px 4px;">42h</td><td style="padding:2px 4px;">2024</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2024/cerification-4-2h-(2024).jpg" title="Abrir certificado">Certification 22</a></td><td style="padding:2px 4px;">2h</td><td style="padding:2px 4px;">2024</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2024/cerification-5-27h-(2024).jpg" title="Abrir certificado">Certification 23</a></td><td style="padding:2px 4px;">27h</td><td style="padding:2px 4px;">2024</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2024/cerification-6-25h-(2024).jpg" title="Abrir certificado">Certification 24</a></td><td style="padding:2px 4px;">25h</td><td style="padding:2px 4px;">2024</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2024/cerification-7-108h-(2024).jpg" title="Abrir certificado">Certification 25</a></td><td style="padding:2px 4px;">108h</td><td style="padding:2px 4px;">2024</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2024/cerification-8-26h-(2024).jpg" title="Abrir certificado">Certification 26</a></td><td style="padding:2px 4px;">26h</td><td style="padding:2px 4px;">2024</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2024/cerification-9-17h-(2024).jpg" title="Abrir certificado">Certification 27</a></td><td style="padding:2px 4px;">17h</td><td style="padding:2px 4px;">2024</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2024/cerification-10-6h-(2024).jpg" title="Abrir certificado">Certification 28</a></td><td style="padding:2px 4px;">6h</td><td style="padding:2px 4px;">2024</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2024/cerification-11-23h-(2024).jpg" title="Abrir certificado">Certification 29</a></td><td style="padding:2px 4px;">23h</td><td style="padding:2px 4px;">2024</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2024/cerification-12-10h-(2024).jpg" title="Abrir certificado">Certification 30</a></td><td style="padding:2px 4px;">10h</td><td style="padding:2px 4px;">2024</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2024/cerification-13-80h-(2024).jpg" title="Abrir certificado">Certification 31</a></td><td style="padding:2px 4px;">80h</td><td style="padding:2px 4px;">2024</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2024/cerification-14-36h-(2024).jpg" title="Abrir certificado">Certification 32</a></td><td style="padding:2px 4px;">36h</td><td style="padding:2px 4px;">2024</td></tr>
+  <tr><td style="padding:2px 4px;"><a href="certification/2024/cerification-15-9h-(2024).jpg" title="Abrir certificado">Certification 33</a></td><td style="padding:2px 4px;">9h</td><td style="padding:2px 4px;">2024</td></tr>
+  </table>
+  </details>
+
   <details id="Social impact">
   <summary><a href="#">Social impact</a> <span style="font-size:12px; color:#666;">(9 projects)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>

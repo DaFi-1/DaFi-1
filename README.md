@@ -29,7 +29,7 @@
 </table>
  -->
  
-<h3 id="project-overview">📁 Projects Overview - 101 | 📚 44 Catalogued Projects | 🎓 Certifications - 33 | 📄 <a href="https://dafi-1.github.io/DaFi-1/">Currículo</a></h3>
+<h3 id="project-overview">📁 Projects Overview - 101 | 📚 44 Catalogued Projects | 🎓 Certifications - 33 - 1130h | 📄 <a href="https://dafi-1.github.io/DaFi-1/">Currículo</a></h3>
 
 <div style="margin-left: 1.5em;">
 
@@ -130,8 +130,9 @@
 
 
   <details id="certifications">
-  <summary>Certifications <span style="font-size:12px; color:#666;">(33 certifications)</span></summary>
-  <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;"><b>2023</b> — 18 certifications</p>
+  <summary>Certifications <span style="font-size:12px; color:#666;">(33 certifications - 1130h)</span></summary>
+  <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">Total: 33 certificações - 1130h. <a href="https://dafi-1.github.io/DaFi-1/#certifications">Ver todas as certificações</a></p>
+  <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;"><b>2023</b> - 18 certifications - 653h</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px;">Course</th><th style="padding:2px 4px; width:80px;">Hours</th><th style="padding:2px 4px; width:80px;">Year</th></tr>
   <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-13-131h-(2023).jpg" title="Abrir certificado">Curso de Python 3 do Básico ao Avançado (com projetos reais)</a></td><td style="padding:2px 4px;">131h</td><td style="padding:2px 4px;">2023</td></tr>
@@ -153,7 +154,7 @@
   <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-12-6h-(2023).jpg" title="Abrir certificado">Programação Orientada a Objetos com Python</a></td><td style="padding:2px 4px;">6h</td><td style="padding:2px 4px;">2023</td></tr>
   <tr><td style="padding:2px 4px;"><a href="certification/2023/cerification-14-6h-(2023).jpg" title="Abrir certificado">Aprendizagem por Reforço com Deep Learning, PyTorch e Python</a></td><td style="padding:2px 4px;">6h</td><td style="padding:2px 4px;">2023</td></tr>
   </table>
-  <p style="font-size: 11px; color: #666; margin: 12px 0 8px 0;"><b>2024</b> — 15 certifications</p>
+  <p style="font-size: 11px; color: #666; margin: 12px 0 8px 0;"><b>2024</b> - 15 certifications - 477h</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px;">Course</th><th style="padding:2px 4px; width:80px;">Hours</th><th style="padding:2px 4px; width:80px;">Year</th></tr>
   <tr><td style="padding:2px 4px;"><a href="certification/2024/cerification-7-108h-(2024).jpg" title="Abrir certificado">Aprenda tudo sobre o Linux! Completo e atualizado v2024!</a></td><td style="padding:2px 4px;">108h</td><td style="padding:2px 4px;">2024</td></tr>

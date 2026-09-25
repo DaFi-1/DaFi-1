@@ -1,15 +1,12 @@
-# Projetos
+<h3 id="project-overview">📁 Projetos — 101 no total · 44 catalogados · 33 certificações | 📄 <a href="https://dafi-1.github.io/DaFi-1/">Currículo</a></h3>
 
-**101 projetos no total · 44 catalogados abaixo · 33 certificações**
-
-[Currículo](https://dafi-1.github.io/DaFi-1/)
-
-**Legenda:** ✅ Concluído · ❌ Em desenvolvimento
+<div style="margin-left: 1.5em;">
+  <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;"><strong>Legenda:</strong> ✅ Concluído · ❌ Em desenvolvimento</p>
 
 <details id="habilidades">
   <summary>Habilidades</summary>
 
-  <table>
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
     <thead>
       <tr>
         <th>Área</th>
@@ -86,7 +83,7 @@
 <details id="ebooks">
   <summary>E-books — 9 projetos</summary>
 
-  <table>
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
     <thead>
       <tr>
         <th>#</th>
@@ -111,7 +108,7 @@
 <details id="impacto-social">
   <summary>Impacto social — 9 projetos</summary>
 
-  <table>
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
     <thead>
       <tr>
         <th>#</th>
@@ -136,7 +133,7 @@
 <details id="frameworks">
   <summary>Frameworks — 1 projeto</summary>
 
-  <table>
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
     <thead>
       <tr>
         <th>#</th>
@@ -154,7 +151,7 @@
 <details id="ciberseguranca">
   <summary>Cibersegurança — 1 projeto</summary>
 
-  <table>
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
     <thead>
       <tr>
         <th>#</th>
@@ -171,7 +168,7 @@
 <details id="devops">
   <summary>DevOps — 1 projeto</summary>
 
-  <table>
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
     <thead>
       <tr>
         <th>#</th>
@@ -189,7 +186,7 @@
 <details id="backend">
   <summary>Backend — 1 projeto</summary>
 
-  <table>
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
     <thead>
       <tr>
         <th>#</th>
@@ -207,7 +204,7 @@
 <details id="sistemas">
   <summary>Sistemas — 1 projeto</summary>
 
-  <table>
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
     <thead>
       <tr>
         <th>#</th>
@@ -225,7 +222,7 @@
 <details id="frontend">
   <summary>Front-end — 1 projeto</summary>
 
-  <table>
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
     <thead>
       <tr>
         <th>#</th>
@@ -243,7 +240,7 @@
 <details id="desenvolvimento-de-jogos">
   <summary>Desenvolvimento de jogos — 2 projetos</summary>
 
-  <table>
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
     <thead>
       <tr>
         <th>#</th>
@@ -262,7 +259,7 @@
 <details id="deep-learning">
   <summary>Deep Learning — 4 projetos</summary>
 
-  <table>
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
     <thead>
       <tr>
         <th>#</th>
@@ -283,7 +280,7 @@
 <details id="testes">
   <summary>Testes — 1 projeto</summary>
 
-  <table>
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
     <thead>
       <tr>
         <th>#</th>
@@ -301,7 +298,7 @@
 <details id="neovim">
   <summary>Neovim — 4 projetos</summary>
 
-  <table>
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
     <thead>
       <tr>
         <th>#</th>
@@ -322,7 +319,7 @@
 <details id="forks">
   <summary>Forks — 5 projetos</summary>
 
-  <table>
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
     <thead>
       <tr>
         <th>#</th>
@@ -343,7 +340,7 @@
 <details id="arquivados">
   <summary>Projetos arquivados — 3 projetos</summary>
 
-  <table>
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
     <thead>
       <tr>
         <th>#</th>
@@ -362,7 +359,7 @@
 <details id="diario-de-jogos">
   <summary>Diário de jogos — 1 projeto</summary>
 
-  <table>
+  <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
     <thead>
       <tr>
         <th>#</th>
@@ -375,3 +372,4 @@
     </tbody>
   </table>
 </details>
+</div>

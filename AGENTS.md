@@ -65,6 +65,13 @@ Conceitos já registrados:
 - **Onde está:** seção "Fluxo de trabalho e commits".
 - **Armadilha:** não commitar sem pedido explícito do dono.
 
+### Separar mudanças misturadas sem reescrever histórico — 2026-09-25
+- **O que é:** quando o dono edita um arquivo no mesmo working tree em que o agente já travaille, os dois conjuntos de mudanças ficam no mesmo `git diff` e viram um commit só. A técnica isola os dois sem reescrever histórico, usando cópias em `/tmp/opencode` como palco.
+- **Por que existe:** no pedido de "vários commits", o dono já tinha editado o `README.md` (capa comentada, cabeçalho sem `44`, `<summary>` com link) **e** o agente tinha corrigido 2 ONGs no mesmo arquivo. Commitar tudo junto violaria "um assunto por commit" e atribuiria ao dono mudanças que ele não fez.
+- **Como funciona:** (1) `cp README.md /tmp/opencode/readme.final.md` guarda o estado final com as duas coisas; (2) um script reverte **apenas as linhas do agente**, deixando o `git diff` com só o que é do dono; (3) `git add` + `git commit` do ajuste dele; (4) `cp /tmp/opencode/<arquivo>.final.md <arquivo>` restaura o estado completo, de modo que a próxima emenda seja só a correção do agente. O mesmo caminho foi usado em `index.html` com `/tmp/opencode/index.final.html` (com o fix das ONGs) e `/tmp/opencode/index.sem_fix.html` (bilingue, sem o fix). Conferir com `git diff -U0 | grep -E '^[+-][^+-]'` antes de cada `git add`.
+- **Onde está:** commits `a842531` (ajuste do dono), `b9b203a` (bilinguismo, sem o fix), `83aff60` (fix das ONGs no README e no currículo). Nenhum `git rebase`, `commit --amend` ou `reset` foi usado.
+- **Armadilha:** a ordem importa — commitar o ajuste do dono **primeiro**, senão o fix do agente entra junto. E o arquivo em `/tmp` precisa existir antes de começar, porque `/tmp` é tmpfs e some a cada reinício.
+
 ## Os dois documentos e como eles se relacionam
 
 Os dois arquivos descrevem a **mesma pessoa e o mesmo trabalho**, mas para públicos diferentes. Nenhum é cópia do outro: a mesma informação aparece nos dois com layout, granularidade e ênfase diferentes, e nenhum dos dois pode contradizer o outro.
@@ -235,6 +242,7 @@ Não existe lint, build, teste ou CI no repositório (`package.json`, `Makefile`
 - Um commit por assunto, sem misturar `docs`, imagens e conteúdo. Exemplo do trabalho de certificações: (1) imagens, (2) currículo, (3) `AGENTS.md`.
 - Ao editar `index.html`, o diff tem que incluir **o texto novo em português e a tradução em `data-en`**. Se só um dos dois aparecer no diff, o trabalho está incompleto.
 - O histórico do repositório usa mensagens `Up` (326 commits), o que não é descritivo. Usar mensagens curtas em pt-BR no formato `tipo: descrição`.
+- **Mudança misturada no mesmo arquivo:** se o dono editou um arquivo que o agente já estava mexendo, os dois conjuntos de mudanças entram no mesmo `git diff`. Isolar com cópias em `/tmp/opencode`: salvar o estado final, reverter só as linhas do agente, commitar o ajuste do dono, restaurar o arquivo e commitar a parte do agente. Nunca `rebase`, `amend` ou `reset`. Ver "Separar mudanças misturadas sem reescrever histórico".
 - Não commitar sem pedido explícito. Antes: `git status`, `git diff`, `git log --oneline -10`; nunca commitar segredos ou `.env`.
 - O `README.md` é Markdown com HTML bruto: funciona no GitHub, mas tags precisam ser balanceadas e `&` escapado (`&amp;`) no link de `The Git & Github Bootcamp`.
 

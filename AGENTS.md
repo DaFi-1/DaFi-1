@@ -12,7 +12,7 @@ Trabalhar a **vitrine pessoal** do dono do perfil: `README.md` (portfólio no Gi
 
 1. `git status`, `git diff`, `git log --oneline -10` — o dono pode ter editado no meio da sessão (ver "Separar mudanças misturadas").
 2. Ler o trecho alvo nos **dois** arquivos (`README.md` e `index.html`): quase toda informação existe nos dois lados.
-3. Conferir os números vigentes: `101` projetos, `44` catalogados, `33` certificações, `1130h` (653h + 477h), `87` elementos com `data-en`.
+3. Conferir os números vigentes: `101` projetos, `44` catalogados, `33` certificações, `1130h` (653h + 477h), `86` elementos com `data-en`.
 4. `/tmp/opencode/` nasce vazio a cada reinício: os scripts de validação e o `jsdom` precisam ser recriados/reinstalados na sessão (ver "Validação como CI").
 
 ### Regras inegociáveis
@@ -124,6 +124,13 @@ Conceitos já registrados:
 - **Onde está:** "Regras inegociáveis" e "Fluxo de trabalho e commits".
 - **Armadilha:** não misturar assuntos num commit só só porque a tarefa foi rápida; e nunca `rebase`, `amend` ou `reset` para "arrumar" o que já foi commitado.
 
+### Contato sem Lattes — 2026-09-26
+- **O que é:** o item `Currículo: lattes.cnpq.br` foi removido da seção 1 (Contato) do `index.html`. O contato do currículo ficou só com GitHub e e-mail.
+- **Por que existe:** pedido do dono ("tire o currículo no index.html, não precisa"), confirmado quando ele escolheu exatamente essa linha entre as opções. O próprio currículo não precisa apontar para outro currículo.
+- **Como funciona:** o `<li>` inteiro (PT e `data-en` juntos) saiu; o `data-en` total caiu de 87 para 86. Nada mais citava a URL — o `README.md` não aponta para o Lattes e a descrição do projeto `lattes-html-sanitization` ("para currículos Lattes") continua, porque é texto de projeto, não link de contato.
+- **Onde está:** `index.html`, seção `1. Contato` (linha do `<li>` de GitHub e E-mail). Referência na tabela de contatos deste arquivo.
+- **Armadilha:** não recriar o item. Se o dono pedir contato novo, lembrar que o texto novo precisa de `data-en` nas duas versões e que o contador de `data-en` muda (hoje 86).
+
 ## Os dois documentos e como eles se relacionam
 
 Os dois arquivos descrevem a **mesma pessoa e o mesmo trabalho**, mas para públicos diferentes. Nenhum é cópia do outro: a mesma informação aparece nos dois com layout, granularidade e ênfase diferentes, e nenhum dos dois pode contradizer o outro.
@@ -138,7 +145,7 @@ Os dois arquivos descrevem a **mesma pessoa e o mesmo trabalho**, mas para públ
 | Idioma dos rótulos | Inglês: `Skill`, `Course`, `Hours`, `Year`, `Stack`, `Completed` | Português: `Contato`, `Resumo`, `Certificações`, `Stacks` |
 | Texto do conteúdo | Nome do repositório, badges de stack, um emoji de status | Frases completas dizendo o que foi feito, com `<p class="title">` e listas com marcadores |
 | Contadores | `101` projetos e `33` certificações - `1130h` no cabeçalho; `44` catalogados na soma das abas | `Total de projetos: 101 projetos.` e `Total: 33 certificações - 1130h.` |
-| Contato | Só um link para o currículo no cabeçalho | GitHub, Lattes (`lattes.cnpq.br`) e e-mail completos |
+| Contato | Só um link para o currículo no cabeçalho | GitHub e e-mail (sem Lattes; o link `lattes.cnpq.br` foi removido a pedido) |
 
 ### O que existe em cada um
 
@@ -196,7 +203,7 @@ O currículo é bilíngue (pt-BR / EN), implementado sem framework e sem build:
 3. **28 títulos de certificação traduzidos**, cada linha com o mesmo `href` de imagem, mesmo `(ano). NNh.` e mesma ordem. Os 5 títulos que já estavam em inglês ficaram sem `data-en`.
 4. **`<meta description>` e `<title>` bilíngues**: o script troca `content` na `<meta>` e o texto do `<title>`, além do `lang` do `<html>`.
 5. **Limpeza na seção 6**: o marcador `(concluído).` foi removido dos 7 projetos concluídos (em PT e no `data-en`); só o `100-Html-Css-Js-Project` mantém `(em desenvolvimento).` / `(in development).`. Regra: status só quando o projeto **não** está pronto.
-6. Estado atual: **87 elementos com `data-en`** (59 + 28).
+6. Estado atual: **86 elementos com `data-en`** (58 + 28). O item `Currículo: lattes.cnpq.br` foi removido da seção 1 em 2026-09-26 (ver "Contato sem Lattes"), levando de 87 para 86.
 
 ### Erros já encontrados (não repetir)
 
@@ -310,6 +317,7 @@ Sessão de reanálise do repositório antes de retomar o trabalho. Nada de conte
 4. **Nova seção "Diretrizes do agente"** criada no topo do `AGENTS.md` (pedido do dono: "analise o projeto e defina suas diretrizes"). É o contrato operacional: papel, checagens antes de mexer, regras inegociáveis, fluxo da tarefa e obrigação de registrar ao encerrar. As seções detalhadas continuam sendo o fundamento; as diretrizes apontam para elas em vez de duplicar.
 5. **Títulos das certificações em inglês no README** (pedido: "veja os nomes em inglês no site index.html e coloque em inglês aqui no readme"): 28 linhas da aba Certifications trocadas pelo texto do `data-en` do currículo, casadas pelo `href`. Conferido com script: 33 linhas, 1130h (653 + 477), nenhum link quebrado, nenhum nome divergente do currículo, `git diff` alterando só as linhas de certificação do `README.md`. Seções do `AGENTS.md` que diziam "títulos em português no README" foram atualizadas. Commits `6e65929` (README) e `fdd2756` (documentação).
 6. **Nova regra de commit** (pedido: "sempre faça commit no final"): a regra antiga "não commitar sem pedido explícito" foi substituída — agora toda tarefa termina em commit, um assunto por vez. Registrada como conceito "Commit no fim de cada tarefa".
+7. **Remoção do link do Lattes na seção 1** (pedido: "tire o currículo no index.html, não precisa"): o `<li` de `Currículo: lattes.cnpq.br` saiu do contato, PT e `data-en` juntos. Verificado: HTML balanceado, `<title>` intacto, nenhum outro `lattes.cnpq.br` no repositório, `data-en` de 87 → 86. Ver "Contato sem Lattes".
 
 ### 2026-09-25 — certificações e bilinguismo
 

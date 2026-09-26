@@ -22,7 +22,7 @@ Trabalhar a **vitrine pessoal** do dono do perfil: `README.md` (portfólio no Gi
 - **Nenhum número novo num arquivo sem atualizar o equivalente no outro** (101, 44, 33, 1130h, 653h, 477h).
 - **Documento estático:** não introduzir `package.json`, framework, CDN, build ou toolchain no repositório. JavaScript no máximo o seletor de idioma que já existe.
 - **HTML balanceado** nos dois arquivos (`html.parser` do Python, não `xmllint`); `<title>` sempre presente; ids de `<details>` únicos.
-- **Nada de commit sem pedido explícito do dono.** Quando pedir: um assunto por commit, mensagem em pt-BR no formato `tipo: descrição`, nunca `rebase`/`amend`/`reset`.
+- **Commit no fim de cada tarefa, sempre** (ordem do dono: "sempre faça commit no final"): um assunto por commit, mensagem em pt-BR no formato `tipo: descrição`, nunca `rebase`/`amend`/`reset`. Antes de commitar: `git status`, `git diff`, `git log --oneline -10`.
 - **Nada versionado fora do combinado:** scripts e venvs ficam em `/tmp/opencode/`, nunca no repositório; certificados são só os `.jpg` (sem `UC-...`).
 - **Modelo não lê imagem:** texto de certificado sai por OCR (seção "Como extrair os nomes dos cursos"), nunca pedindo ao dono para redigitar.
 
@@ -32,7 +32,7 @@ Trabalhar a **vitrine pessoal** do dono do perfil: `README.md` (portfólio no Gi
 2. **Editar** os dois lados; se for texto do currículo, PT e `data-en` juntos.
 3. **Validar** antes de dizer pronto: bloco "Validação obrigatória" + "Como validar as duas versões".
 4. **Registrar** em "Registro de conceitos e ideias" (o *porquê* de decisões e armadilhas) e em "Histórico do trabalho" (o *que foi feito*).
-5. **Commitar** só se o dono pedir, um assunto por vez.
+5. **Commitar** no fim de cada tarefa, um assunto por vez (ver "Regras inegociáveis").
 
 ### Ao encerrar
 
@@ -101,7 +101,7 @@ Conceitos já registrados:
 - **Por que existe:** o histórico tem 326 commits com a mesma mensagem `Up`, o que torna impossível saber o que mudou e o porquê.
 - **Como funciona:** commits separados por assunto (imagens / currículo / documentação), nunca misturar `docs` com conteúdo nem imagens com texto.
 - **Onde está:** seção "Fluxo de trabalho e commits".
-- **Armadilha:** não commitar sem pedido explícito do dono.
+- **Armadilha:** misturar assuntos num commit só; ver também "Commit no fim de cada tarefa" (regra vigente desde 2026-09-26).
 
 ### Separar mudanças misturadas sem reescrever histórico — 2026-09-25
 - **O que é:** quando o dono edita um arquivo no mesmo working tree em que o agente já travaille, os dois conjuntos de mudanças ficam no mesmo `git diff` e viram um commit só. A técnica isola os dois sem reescrever histórico, usando cópias em `/tmp/opencode` como palco.
@@ -116,6 +116,13 @@ Conceitos já registrados:
 - **Como funciona:** fonte do texto é o `data-en` da seção 5 do currículo (o par `href` → título em inglês). Troca só o texto do `<a>`, nunca o `href` nem as células de horas/ano.
 - **Onde está:** `README.md`, aba Certifications (linhas de `certification/2023/...` e `certification/2024/...`).
 - **Armadilha:** a inversão é só aqui — nestas 33 linhas o inglês vem do currículo e o português fica no currículo; os demais dados continuam vindo do README. Se um título for re-traduzido, trocar nos dois ao mesmo tempo. `&` precisa de `&amp;` no README (`The Git &amp; Github Bootcamp`).
+
+### Commit no fim de cada tarefa — 2026-09-26
+- **O que é:** toda tarefa termina com commit, sem esperar pedido específico para cada uma.
+- **Por que existe:** pedido do dono ("sempre faça commit no final"). Substitui a regra antiga de "não commitar sem pedido explícito": o pedido agora é permanente e vale por padrão.
+- **Como funciona:** ao fim do fluxo (após validar e registrar no `AGENTS.md`), fazer `git status` → `git diff` → `git log --oneline -10` e commitar um assunto por vez, mensagens em pt-BR no formato `tipo: descrição`. Mudanças de conteúdo e de documentação em commits separados.
+- **Onde está:** "Regras inegociáveis" e "Fluxo de trabalho e commits".
+- **Armadilha:** não misturar assuntos num commit só só porque a tarefa foi rápida; e nunca `rebase`, `amend` ou `reset` para "arrumar" o que já foi commitado.
 
 ## Os dois documentos e como eles se relacionam
 
@@ -288,7 +295,7 @@ Não existe lint, build, teste ou CI no repositório (`package.json`, `Makefile`
 - Ao editar `index.html`, o diff tem que incluir **o texto novo em português e a tradução em `data-en`**. Se só um dos dois aparecer no diff, o trabalho está incompleto.
 - O histórico do repositório usa mensagens `Up` (326 commits), o que não é descritivo. Usar mensagens curtas em pt-BR no formato `tipo: descrição`.
 - **Mudança misturada no mesmo arquivo:** se o dono editou um arquivo que o agente já estava mexendo, os dois conjuntos de mudanças entram no mesmo `git diff`. Isolar com cópias em `/tmp/opencode`: salvar o estado final, reverter só as linhas do agente, commitar o ajuste do dono, restaurar o arquivo e commitar a parte do agente. Nunca `rebase`, `amend` ou `reset`. Ver "Separar mudanças misturadas sem reescrever histórico".
-- Não commitar sem pedido explícito. Antes: `git status`, `git diff`, `git log --oneline -10`; nunca commitar segredos ou `.env`.
+- **Commit no fim da tarefa, sempre** (pedido do dono). Antes: `git status`, `git diff`, `git log --oneline -10`; um assunto por commit; nunca commitar segredos ou `.env`.
 - O `README.md` é Markdown com HTML bruto: funciona no GitHub, mas tags precisam ser balanceadas e `&` escapado (`&amp;`) no link de `The Git & Github Bootcamp`.
 
 ## Histórico do trabalho
@@ -301,7 +308,8 @@ Sessão de reanálise do repositório antes de retomar o trabalho. Nada de conte
 2. **Pendências confirmadas como ainda abertas:** o par `10-Docker-Project` (currículo) × `10-Docker-Simple-project` (README); o `<summary>` de Certifications do README com tags cruzadas (o dono pediu para manter); `id="Social impact"` com espaço.
 3. **Ambiente:** `/tmp/opencode/` vazio (tmpfs) — validadores e `jsdom` da sessão anterior não existem mais e precisam ser recriados; node 24, npm 11, python3.14 disponíveis.
 4. **Nova seção "Diretrizes do agente"** criada no topo do `AGENTS.md` (pedido do dono: "analise o projeto e defina suas diretrizes"). É o contrato operacional: papel, checagens antes de mexer, regras inegociáveis, fluxo da tarefa e obrigação de registrar ao encerrar. As seções detalhadas continuam sendo o fundamento; as diretrizes apontam para elas em vez de duplicar.
-5. **Títulos das certificações em inglês no README** (pedido: "veja os nomes em inglês no site index.html e coloque em inglês aqui no readme"): 28 linhas da aba Certifications trocadas pelo texto do `data-en` do currículo, casadas pelo `href`. Conferido com script: 33 linhas, 1130h (653 + 477), nenhum link quebrado, nenhum nome divergente do currículo, `git diff` alterando só as linhas de certificação do `README.md`. Seções do `AGENTS.md` que diziam "títulos em português no README" foram atualizadas.
+5. **Títulos das certificações em inglês no README** (pedido: "veja os nomes em inglês no site index.html e coloque em inglês aqui no readme"): 28 linhas da aba Certifications trocadas pelo texto do `data-en` do currículo, casadas pelo `href`. Conferido com script: 33 linhas, 1130h (653 + 477), nenhum link quebrado, nenhum nome divergente do currículo, `git diff` alterando só as linhas de certificação do `README.md`. Seções do `AGENTS.md` que diziam "títulos em português no README" foram atualizadas. Commits `6e65929` (README) e `fdd2756` (documentação).
+6. **Nova regra de commit** (pedido: "sempre faça commit no final"): a regra antiga "não commitar sem pedido explícito" foi substituída — agora toda tarefa termina em commit, um assunto por vez. Registrada como conceito "Commit no fim de cada tarefa".
 
 ### 2026-09-25 — certificações e bilinguismo
 

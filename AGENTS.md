@@ -1,11 +1,49 @@
 # AGENTS.md
 
+## Diretrizes do agente
+
+> Contrato operacional, válido para qualquer tarefa neste repositório. As seções seguintes explicam o *porquê* e o *como*; esta é o que **não muda**. Se uma instrução da conversa conflitar com estas diretrizes, perguntar antes de agir.
+
+### Papel
+
+Trabalhar a **vitrine pessoal** do dono do perfil: `README.md` (portfólio no GitHub) e `index.html` (currículo no GitHub Pages). Não há código-fonte, framework nem build — a manutenção é de **conteúdo, layout e consistência entre os dois documentos**. O `README.md` é a fonte da verdade; o currículo deriva dele.
+
+### Antes de mexer em qualquer coisa
+
+1. `git status`, `git diff`, `git log --oneline -10` — o dono pode ter editado no meio da sessão (ver "Separar mudanças misturadas").
+2. Ler o trecho alvo nos **dois** arquivos (`README.md` e `index.html`): quase toda informação existe nos dois lados.
+3. Conferir os números vigentes: `101` projetos, `44` catalogados, `33` certificações, `1130h` (653h + 477h), `87` elementos com `data-en`.
+4. `/tmp/opencode/` nasce vazio a cada reinício: os scripts de validação e o `jsdom` precisam ser recriados/reinstalados na sessão (ver "Validação como CI").
+
+### Regras inegociáveis
+
+- **README manda.** Nenhum dado entra no currículo que não exista na linha correspondente do README; divergência entre os dois é o defeito mais provável do repositório.
+- **Texto novo no currículo sempre nas DUAS versões** (pt-BR + `data-en`), na mesma edição. `data-en` substitui o `innerHTML` inteiro, é HTML escapado (`html.escape(en, quote=True)`), nunca vazio e nunca com `<` cru.
+- **Nenhum número novo num arquivo sem atualizar o equivalente no outro** (101, 44, 33, 1130h, 653h, 477h).
+- **Documento estático:** não introduzir `package.json`, framework, CDN, build ou toolchain no repositório. JavaScript no máximo o seletor de idioma que já existe.
+- **HTML balanceado** nos dois arquivos (`html.parser` do Python, não `xmllint`); `<title>` sempre presente; ids de `<details>` únicos.
+- **Nada de commit sem pedido explícito do dono.** Quando pedir: um assunto por commit, mensagem em pt-BR no formato `tipo: descrição`, nunca `rebase`/`amend`/`reset`.
+- **Nada versionado fora do combinado:** scripts e venvs ficam em `/tmp/opencode/`, nunca no repositório; certificados são só os `.jpg` (sem `UC-...`).
+- **Modelo não lê imagem:** texto de certificado sai por OCR (seção "Como extrair os nomes dos cursos"), nunca pedindo ao dono para redigitar.
+
+### Fluxo de uma tarefa
+
+1. **Analisar** (comandos acima) e localizar os dois pontos de edição.
+2. **Editar** os dois lados; se for texto do currículo, PT e `data-en` juntos.
+3. **Validar** antes de dizer pronto: bloco "Validação obrigatória" + "Como validar as duas versões".
+4. **Registrar** em "Registro de conceitos e ideias" (o *porquê* de decisões e armadilhas) e em "Histórico do trabalho" (o *que foi feito*).
+5. **Commitar** só se o dono pedir, um assunto por vez.
+
+### Ao encerrar
+
+Revisar as seções de registro do `AGENTS.md`: conceito novo que não entrou e histórico desatualizado são falhas da tarefa, mesmo com o conteúdo certo. Este arquivo é a memória entre sessões — nada pode depender do contexto da conversa.
+
 ## Contexto do projeto
 
 Repositório de perfil do GitHub **DaFi-1/DaFi-1**. Não contém código-fonte; é uma vitrine pessoal formada por dois arquivos e uma pasta de imagens:
 
 - **`index.html`** — Currículo (estilo Lattes) do dono do perfil. Conteúdo em português (pt-BR), single-file com CSS inline e ícones SVG embutidos. Estrutura em seções numeradas (1. Contato → 9. Idiomas). A seção 5 (Certificações) tem `id="certifications"`, usado como âncora pelo link do README.
-- **`README.md`** — Apresentação do perfil no GitHub (profile README), exibida na página principal do usuário. É o catálogo de projetos e habilidades, organizado em abas `<details>`/`<summary>` (Skills, Ebooks, Certifications, Social impact, Framework, Cybersecurity, DevOps, Backend, Systems, FrontEnd, GameDev, Deep Learning, Testing, NeoVim, Forks, Trash, Gaming-Diary). Rótulos em inglês; conteúdo e imagens em pt-BR.
+- **`README.md`** — Apresentação do perfil no GitHub (profile README), exibida na página principal do usuário. É o catálogo de projetos e habilidades, organizado em abas `<details>`/`<summary>` (Skills, Ebooks, Certifications, Social impact, Framework, Cybersecurity, DevOps, Backend, Systems, FrontEnd, GameDev, Deep Learning, Testing, NeoVim, Forks, Trash, Gaming-Diary). Rótulos em inglês; conteúdo e imagens em pt-BR, **exceto os títulos das certificações, que são em inglês**.
 - **`certification/`** — Imagens dos certificados, organizadas por ano em `certification/<ano>/cerification-<n>-<h>h-(<ano>).jpg`. São 33 imagens: 18 em `2023/` e 15 em `2024/`.
 
 ## Conceito do trabalho
@@ -72,6 +110,13 @@ Conceitos já registrados:
 - **Onde está:** commits `a842531` (ajuste do dono), `b9b203a` (bilinguismo, sem o fix), `83aff60` (fix das ONGs no README e no currículo). Nenhum `git rebase`, `commit --amend` ou `reset` foi usado.
 - **Armadilha:** a ordem importa — commitar o ajuste do dono **primeiro**, senão o fix do agente entra junto. E o arquivo em `/tmp` precisa existir antes de começar, porque `/tmp` é tmpfs e some a cada reinício.
 
+### Títulos de certificação em inglês no README — 2026-09-26
+- **O que é:** os 28 títulos traduzidos da aba Certifications do `README.md` foram trocados do português para o inglês — exatamente o texto do `data-en` do currículo. As 5 que já eram em inglês não mudaram. As 33 linhas continuam com mesmo `href`, mesmas horas e mesma ordem.
+- **Por que existe:** pedido do dono ao colar a aba inteira: "veja os nomes em inglês no site index.html e coloque em inglês aqui no readme, não precisa deixar em português". O README tem rótulos em inglês e o público dele é internacional; o currículo continua com português como conteúdo padrão.
+- **Como funciona:** fonte do texto é o `data-en` da seção 5 do currículo (o par `href` → título em inglês). Troca só o texto do `<a>`, nunca o `href` nem as células de horas/ano.
+- **Onde está:** `README.md`, aba Certifications (linhas de `certification/2023/...` e `certification/2024/...`).
+- **Armadilha:** a inversão é só aqui — nestas 33 linhas o inglês vem do currículo e o português fica no currículo; os demais dados continuam vindo do README. Se um título for re-traduzido, trocar nos dois ao mesmo tempo. `&` precisa de `&amp;` no README (`The Git &amp; Github Bootcamp`).
+
 ## Os dois documentos e como eles se relacionam
 
 Os dois arquivos descrevem a **mesma pessoa e o mesmo trabalho**, mas para públicos diferentes. Nenhum é cópia do outro: a mesma informação aparece nos dois com layout, granularidade e ênfase diferentes, e nenhum dos dois pode contradizer o outro.
@@ -109,7 +154,7 @@ Os dois arquivos descrevem a **mesma pessoa e o mesmo trabalho**, mas para públ
 | Projeto pessoal (sem repo) | `ONGs-ongab-site` marcado como `❌ In Development` | Não entra na seção 6 (que lista só o que tem link público) |
 | Stack | Coluna `Stack` com texto (`Docker`) ou badges na aba Skills | Seção 7, agrupada por área (`Backend: Python, Django, Flask e FastAPI`) |
 | Status | Coluna sem título com `✅` ou `❌`, legenda `✅ Completed \| ❌ In Development` | Texto `(concluído).` ou `(em desenvolvimento).` dentro de `<span class="period">` |
-| Certificação | Linha com `Course` (link), `Hours` (`131h`) e `Year` (`2023`) | `Nome do curso (2023). 131h.` com o nome linkado |
+| Certificação | Linha com `Course` (link, **título em inglês**), `Hours` (`131h`) e `Year` (`2023`) | `Nome do curso (2023). 131h.` com o nome linkado (título em português, inglês no `data-en`) |
 | Total | Só nos contadores do cabeçalho e do `<summary>` da aba | Frase `Total: ...` no topo da seção, antes dos tópicos |
 | Experiência | Não existe | Seção 3, uma entrada por empresa, com o tipo de contrato na segunda linha |
 
@@ -117,7 +162,7 @@ Os dois arquivos descrevem a **mesma pessoa e o mesmo trabalho**, mas para públ
 
 - **O `README.md` é a fonte da verdade.** O `index.html` não inventa dados: toda ONG, projeto, link, status e stack da seção 4 e da seção 6 sai do README (aba correspondente) e é reescrito em frase curta para o currículo. Ao atualizar um projeto no currículo, conferir primeiro a linha correspondente no README; ao atualizar no README, revisar o currículo.
 - **Projeto novo:** escolher a aba correspondente no README, inserir a linha numerada, renumerar as linhas seguintes da mesma aba, atualizar o contador do `<summary>` da aba e, se a soma mudar, revisar o número de projetos do cabeçalho. Se for projeto pessoal de destaque, avaliar incluir na seção 6 do currículo.
-- **Certificação nova:** jpg em `certification/<ano>/`, uma linha na tabela do ano correspondente no README e um item na seção 5 do currículo, mantendo a ordem decrescente de horas. Atualizar o subtítulo do ano, o `<summary>`, o cabeçalho e a linha de total do currículo.
+- **Certificação nova:** jpg em `certification/<ano>/`, uma linha na tabela do ano correspondente no README e um item na seção 5 do currículo, mantendo a ordem decrescente de horas. Atualizar o subtítulo do ano, o `<summary>`, o cabeçalho e a linha de total do currículo. O texto do link no README é o **título em inglês**; o título em português vive só no currículo (ver "Títulos de certificação em inglês no README").
 - **Repo renomeado ou apagado:** atualizar os dois arquivos, verificando se o nome também aparece em `<b>` no currículo e no `title` dos links do README.
 - **Nova skill/tech:** entra nos dois (badges na aba Skills e item na seção 7 do currículo), com o mesmo nome de tecnologia.
 - **Nunca** introducir um número em um arquivo sem atualizar o número equivalente no outro (101, 44, 33, 1130h, 653h, 477h).
@@ -133,7 +178,7 @@ O currículo é bilíngue (pt-BR / EN), implementado sem framework e sem build:
 - O script no fim do `<body>` troca `el.innerHTML` entre o valor salvo na página (PT) e `data-en` (EN), atualiza `<title>`, a `<meta description>` e o atributo `lang` do `<html>`, marca o botão ativo com `aria-pressed` e guarda a preferência em `localStorage["cv-lang"]`. Sem JS, o site aparece em português.
 - **O `data-en` substitui o `innerHTML` inteiro do elemento.** Ao traduzir, é obrigatório incluir todo o conteúdo: rótulo **e** valores, links, `<b>`, `<span class="period">` e o ícone SVG. Um `data-en='<b>Languages:</b>'` sem a lista de tecnologias apaga a lista ao trocar de idioma (erro que já aconteceu).
 - O conteúdo do `data-en` é HTML **escapado** (`&lt;b&gt;`, `&quot;`), gravado com `html.escape(en, quote=True)`. Nunca escrever `<` ou `>` crus dentro do atributo: quebra o balanceamento do `html.parser` e a validação.
-- **Os títulos das 33 certificações são traduzidos** no currículo (`data-en` na seção 5), apontando para a **mesma** imagem `.jpg`, com o mesmo `(ano). NNh.`. Os 5 títulos que já estavam em inglês (`Complete SQL and Databases Bootcamp`, `Django - The Python Practical Guide`, `The Git & Github Bootcamp`, `SQLite Databases Python Programming`, `Intro To SQLite Databases Programming`) ficam sem `data-en`. O `README.md` **não** é bilíngue: os títulos das certificações continuam só em português lá.
+- **Os títulos das 33 certificações são traduzidos** no currículo (`data-en` na seção 5), apontando para a **mesma** imagem `.jpg`, com o mesmo `(ano). NNh.`. Os 5 títulos que já estavam em inglês (`Complete SQL and Databases Bootcamp`, `Django - The Python Practical Guide`, `The Git & Github Bootcamp`, `SQLite Databases Python Programming`, `Intro To SQLite Databases Programming`) ficam sem `data-en`. O `README.md` **não** é bilíngue: as tabelas dele usam o título **em inglês** (o mesmo `data-en` do currículo) e o currículo mantém o português como conteúdo padrão (ver "Títulos de certificação em inglês no README").
 - Não se traduzem: nomes próprios (empresas, ONGs, repositórios), tecnologias, horas, anos, e-mail e URLs. Rótulos idênticos nos dois idiomas (`GitHub:`, `E-mail:`, `Frontend:`, `Backend:`, `Machine learning:`, `Data science:`, `DevOps:`, nomes das 4 empresas) ficam sem `data-en`.
 - Para adicionar um trecho novo: criar o elemento em PT, duplicar o inner HTML em inglês com o helper `d()` do script `/tmp/opencode/add_i18n.py` (que aplica tudo com asserções e é reexecutável a partir do backup), e conferir com o teste jsdom. Para certificações novas, o dicionário PT→EN está em `/tmp/opencode/add_i18n_certs.py`.
 
@@ -190,7 +235,7 @@ As duas entradas (README e currículo) seguem exatamente o mesmo formato:
 - Uma linha por imagem, ordenada da **maior para a menor** carga horária dentro de cada ano.
 - Dois tópicos, `2023` e `2024`, nessa ordem, com subtítulo no formato `ano - quantidade - horas`.
 - Colunas no README: `Course | Hours | Year`. No currículo: `Nome do curso (ano). 131h.` com o nome linkado para a imagem.
-- O nome do curso é o **texto do link** que aponta para o `.jpg`; não existe coluna com "Certificação 01".
+- O nome do curso é o **texto do link** que aponta para o `.jpg`; não existe coluna com "Certificação 01". No README esse texto é o título em inglês; no currículo é o título em português com o inglês no `data-en`. Os dois apontam para o mesmo arquivo e são a mesma tradução.
 - Contador no `<summary>` do README: `(33 certifications - 1130h)`. No cabeçalho do README: `🎓 Certifications - 33 - 1130h`.
 - No currículo, a linha `Total: 33 certificações - 1130h.` fica no **topo** da seção 5, antes dos tópicos. Ela **não** existe no README.
 - Somas atuais: 2023 = 653h (18 cursos), 2024 = 477h (15 cursos), total = 1130h.
@@ -232,7 +277,7 @@ Não existe lint, build, teste ou CI no repositório (`package.json`, `Makefile`
 - Linhas por aba: cada uma das 15 abas de projetos tem exatamente o número de linhas numeradas que o `<summary>` declara (soma = 44).
 - Uma linha por imagem: `33` linhas na tabela do README, `33` itens no currículo, `33` `.jpg` em `certification/`, `33` links únicos apontando para arquivos existentes.
 - Horas: cada `<td>Hours</td>` e cada `<span class="period">` bate com o número no nome do arquivo; a ordem é decrescente por ano; as somas (653h, 477h, 1130h) batem.
-- Nomes: o texto do link de cada linha é igual nos dois arquivos e igual em `README.md` e `index.html`.
+- Nomes: o texto do link de cada linha do README é igual ao `data-en` correspondente do currículo (e, nas 5 certificações que já eram em inglês, igual ao texto PT do currículo); nenhuma linha em português sobra no README.
 - Bilíngue: todo trecho de texto visível tem `data-en` (exceto nomes próprios, tecnologias, horas, anos, URLs e rótulos idênticos nos dois idiomas); `data-en` nunca vazio e nunca com `<` cru. Contar `data-en` antes e depois: o número só sobe se o texto novo foi traduzido. Rodar o bloco de "Como validar as duas versões".
 - HTML balanceado nos dois arquivos (`html.parser`), `id`s de `<details>` únicos, `git diff --check` sem erros de whitespace.
 
@@ -246,7 +291,19 @@ Não existe lint, build, teste ou CI no repositório (`package.json`, `Makefile`
 - Não commitar sem pedido explícito. Antes: `git status`, `git diff`, `git log --oneline -10`; nunca commitar segredos ou `.env`.
 - O `README.md` é Markdown com HTML bruto: funciona no GitHub, mas tags precisam ser balanceadas e `&` escapado (`&amp;`) no link de `The Git & Github Bootcamp`.
 
-## Histórico do trabalho (2026-09-25)
+## Histórico do trabalho
+
+### 2026-09-26 — análise de partida e diretrizes do agente
+
+Sessão de reanálise do repositório antes de retomar o trabalho. Nada de conteúdo mudou: `git status` limpo, working tree sem alterações.
+
+1. **Estado conferido:** 33 `.jpg` (18 em `2023/`, 15 em `2024/`), 33 linhas de certificação no README, 33 itens no currículo, `87` elementos com `data-en`, 17 abas `<details>`, soma dos contadores das 15 abas de projetos = 44. HTML do `index.html` balanceado (`html.parser` sem erros).
+2. **Pendências confirmadas como ainda abertas:** o par `10-Docker-Project` (currículo) × `10-Docker-Simple-project` (README); o `<summary>` de Certifications do README com tags cruzadas (o dono pediu para manter); `id="Social impact"` com espaço.
+3. **Ambiente:** `/tmp/opencode/` vazio (tmpfs) — validadores e `jsdom` da sessão anterior não existem mais e precisam ser recriados; node 24, npm 11, python3.14 disponíveis.
+4. **Nova seção "Diretrizes do agente"** criada no topo do `AGENTS.md` (pedido do dono: "analise o projeto e defina suas diretrizes"). É o contrato operacional: papel, checagens antes de mexer, regras inegociáveis, fluxo da tarefa e obrigação de registrar ao encerrar. As seções detalhadas continuam sendo o fundamento; as diretrizes apontam para elas em vez de duplicar.
+5. **Títulos das certificações em inglês no README** (pedido: "veja os nomes em inglês no site index.html e coloque em inglês aqui no readme"): 28 linhas da aba Certifications trocadas pelo texto do `data-en` do currículo, casadas pelo `href`. Conferido com script: 33 linhas, 1130h (653 + 477), nenhum link quebrado, nenhum nome divergente do currículo, `git diff` alterando só as linhas de certificação do `README.md`. Seções do `AGENTS.md` que diziam "títulos em português no README" foram atualizadas.
+
+### 2026-09-25 — certificações e bilinguismo
 
 Sessão em que as certificações viraram uma aba completa e o currículo ficou bilíngue. Cada linha é um bloco de trabalho, na ordem em que aconteceu.
 

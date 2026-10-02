@@ -29,7 +29,7 @@
 </table>
  -->
  
-<h3 id="project-overview">📁 Projects Overview - 101 | | 🎓 Certifications - 33 - 1130h | 📄 <a href="https://dafi-1.github.io/DaFi-1/">Currículo</a></h3>
+<h3 id="project-overview">📁 Projects Overview - 101 | 🎓 Certifications - 33 - 1130h | 📄 <a href="https://dafi-1.github.io/DaFi-1/">Currículo</a></h3>
 
 <div style="margin-left: 1.5em;">
 

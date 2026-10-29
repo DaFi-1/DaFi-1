@@ -29,7 +29,7 @@
 </table>
  -->
  
-<h3 id="project-overview">📁 Projects Overview - 102 | 🎓 Certifications - 33 - 1130h | 📄 <a href="https://dafi-1.github.io/DaFi-1/">Currículo</a></h3>
+<h3 id="project-overview">📁 Projects Overview - 109 | 🎓 Certifications - 33 - 1130h | 📄 <a href="https://dafi-1.github.io/DaFi-1/">Currículo</a></h3>
 
 <div style="margin-left: 1.5em;">
 
@@ -240,22 +240,24 @@
 
    
   <details id="systems">
-  <summary><a href="#">systems</a> <span style="font-size:12px; color:#666;">(1 project)</span></summary>
+  <summary><a href="#">systems</a> <span style="font-size:12px; color:#666;">(2 project)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Systems-Project</th><th style="padding:2px 4px;">Stack</th><th style="padding:2px 4px; width:110px;"></th></tr>
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/fiwm">fiwm</a></td><td style="padding:2px 4px;">X11 (C)</td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/fimenu">fimenu</a></td><td style="padding:2px 4px;">X11 (C)</td><td style="padding:2px 4px;">✅</td></tr>
   </table>
   </details>
 
 
 
   <details id="frontend">
-  <summary><a href="#">FrontEnd</a> <span style="font-size:12px; color:#666;">(1 project) <img src="https://img.shields.io/badge/+26-limegreen" width="30px"/></span></summary>
+  <summary><a href="#">FrontEnd</a> <span style="font-size:12px; color:#666;">(2 project) <img src="https://img.shields.io/badge/+26-limegreen" width="30px"/></span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">FrontEnd-Project</th><th style="padding:2px 4px;">Stack</th><th style="padding:2px 4px; width:110px;"></th></tr>
   <tr><td style="padding:2px 4px;">1</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/100-Html-Css-Js-Project">100-Html-Css-Js-Project</a></td><td style="padding:2px 4px;">HTML, CSS, JavaScript</td><td style="padding:2px 4px;">❌</td></tr>
+  <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/DemoBuilderSiteCheck">DemoBuilderSiteCheck</a></td><td style="padding:2px 4px;">HTML, CSS, JavaScript</td><td style="padding:2px 4px;">✅</td></tr>
   </table>
   </details>
 
@@ -299,7 +301,7 @@
   </details>
 
   <details id="neovim">
-  <summary><a href="#">NeoVim</a> <span style="font-size:12px; color:#666;">(5 project)</span></summary>
+  <summary><a href="#">NeoVim</a> <span style="font-size:12px; color:#666;">(10 project)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
   <table width="100%" style="border-collapse: collapse; font-size: 13px; line-height: 1.1;">
   <tr><th style="padding:2px 4px; width:36px;">#</th><th style="padding:2px 4px;">Other-Project</th><th style="padding:2px 4px;">Stack</th><th style="padding:2px 4px; width:110px;"></th></tr>
@@ -307,9 +309,13 @@
   <tr><td style="padding:2px 4px;">2</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/tabindex">tabindex</a></td><td style="padding:2px 4px;">Neovim (Lua)</td><td style="padding:2px 4px;">✅</td></tr>
   <tr><td style="padding:2px 4px;">3</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/bolinhax">bolinhax</a></td><td style="padding:2px 4px;">Neovim (Lua)</td><td style="padding:2px 4px;">✅</td></tr>
   <tr><td style="padding:2px 4px;">4</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/winhopxx">winhopxx</a></td><td style="padding:2px 4px;">Neovim (Lua)</td><td style="padding:2px 4px;">✅</td></tr>
-<tr><td style="padding:2px 4px;">5</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/taphopxx">tabhopxx</a></td><td style="padding:2px 4px;">Neovim (Lua)</td><td style="padding:2px 4px;">✅</td></tr>
-
-   </table>
+  <tr><td style="padding:2px 4px;">5</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/taphopxx">tabhopxx</a></td><td style="padding:2px 4px;">Neovim (Lua)</td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">6</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/wallnvim">wallnvim</a></td><td style="padding:2px 4px;">Neovim (Lua)</td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">7</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/pomonvim">pomonvim</a></td><td style="padding:2px 4px;">Neovim (Lua)</td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">8</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/centmenu">centmenu</a></td><td style="padding:2px 4px;">Neovim (Lua)</td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">9</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/blinkcpt">blinkcpt</a></td><td style="padding:2px 4px;">Neovim (Lua)</td><td style="padding:2px 4px;">✅</td></tr>
+  <tr><td style="padding:2px 4px;">10</td><td style="padding:2px 4px;"><a href="https://github.com/DaFi-1/1000-SimpleThemesNvim">1000-SimpleThemesNvim</a></td><td style="padding:2px 4px;">Neovim (Lua)</td><td style="padding:2px 4px;">✅</td></tr>
+  </table>
   </details>
 
   <details id="forks">

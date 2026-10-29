@@ -307,11 +307,12 @@ Não existe lint, build, teste ou CI no repositório (`package.json`, `Makefile`
 
 ## Histórico do trabalho
 
-### 2026-10-29 — coluna de acesso na aba Social impact
+### 2026-10-29 — coluna de acesso e status dos softwares na aba Social impact
 
-Adição de coluna de visibilidade/acesso (Public vs Private) na tabela da aba Social impact no `README.md`.
-1. **README.md:** Adicionada a coluna `Access` com texto explícito `Public` para sites e `Private` para os softwares (`ONGs-ongab-software`, `ONGs-ongbp-software`, `ONGs-onggad-software`).
-2. **Consistência:** Mantida a correspondência 1:1 com os 9 itens da seção 4 do `index.html`.
+Adição de coluna de visibilidade/acesso (Public vs Private) e atualização de status dos softwares para concluído.
+1. **README.md:** Adicionada a coluna `Access` com texto explícito `Public` para sites e `Private` para os softwares. Os softwares `ONGs-ongab-software` e `ONGs-onggad-software` foram atualizados para ✅ (Completed), alinhando com `ONGs-ongbp-software`.
+2. **index.html:** Seção 4 (Contribuições para ONGs) atualizada em PT (`(concluído).`) e EN (`(completed).`) para os três softwares, mantendo a regra de sincronia 1:1 entre os dois documentos.
+3. **Métricas e balanceamento:** 86 elementos `data-en` mantidos e HTML balanceado.
 
 ### 2026-10-29 — inclusão dos repositórios públicos pendentes e sincronização
 

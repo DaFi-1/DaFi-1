@@ -12,14 +12,14 @@ Trabalhar a **vitrine pessoal** do dono do perfil: `README.md` (portfólio no Gi
 
 1. `git status`, `git diff`, `git log --oneline -10` — o dono pode ter editado no meio da sessão (ver "Separar mudanças misturadas").
 2. Ler o trecho alvo nos **dois** arquivos (`README.md` e `index.html`): quase toda informação existe nos dois lados.
-3. Conferir os números vigentes: `101` projetos, `44` catalogados, `33` certificações, `1130h` (653h + 477h), `86` elementos com `data-en`.
+3. Conferir os números vigentes: `109` projetos, `52` catalogados, `33` certificações, `1130h` (653h + 477h), `86` elementos com `data-en`.
 4. `/tmp/opencode/` nasce vazio a cada reinício: os scripts de validação e o `jsdom` precisam ser recriados/reinstalados na sessão (ver "Validação como CI").
 
 ### Regras inegociáveis
 
 - **README manda.** Nenhum dado entra no currículo que não exista na linha correspondente do README; divergência entre os dois é o defeito mais provável do repositório.
 - **Texto novo no currículo sempre nas DUAS versões** (pt-BR + `data-en`), na mesma edição. `data-en` substitui o `innerHTML` inteiro, é HTML escapado (`html.escape(en, quote=True)`), nunca vazio e nunca com `<` cru.
-- **Nenhum número novo num arquivo sem atualizar o equivalente no outro** (101, 44, 33, 1130h, 653h, 477h).
+- **Nenhum número novo num arquivo sem atualizar o equivalente no outro** (109, 52, 33, 1130h, 653h, 477h).
 - **Documento estático:** não introduzir `package.json`, framework, CDN, build ou toolchain no repositório. JavaScript no máximo o seletor de idioma que já existe.
 - **HTML balanceado** nos dois arquivos (`html.parser` do Python, não `xmllint`); `<title>` sempre presente; ids de `<details>` únicos.
 - **Commit no fim de cada tarefa, sempre** (ordem do dono: "sempre faça commit no final"): um assunto por commit, mensagem em pt-BR no formato `tipo: descrição`, nunca `rebase`/`amend`/`reset`. Antes de commitar: `git status`, `git diff`, `git log --oneline -10`.
@@ -52,7 +52,7 @@ O repositório é a **vitrine pessoal** de um desenvolvedor full-stack brasileir
 
 Cinco conceitos sustentam o trabalho. Qualquer ideia nova precisa se encaixar em um deles ou explicar por que não:
 
-1. **Fonte única de verdade.** O README manda. Os números (`101` projetos, `44` catalogados, `33` certificações, `1130h`) e o conteúdo das seções 4 e 6 do currículo derivam dele. O defeito mais provável do repositório é a divergência entre os dois documentos, então toda alteração é conferida nos dois lados.
+1. **Fonte única de verdade.** O README manda. Os números (`109` projetos, `52` catalogados, `33` certificações, `1130h`) e o conteúdo das seções 4 e 6 do currículo derivam dele. O defeito mais provável do repositório é a divergência entre os dois documentos, então toda alteração é conferida nos dois lados.
 2. **Documento estático, sem build.** Um arquivo só, CSS inline, ícones SVG embutidos, sem framework, sem `package.json`, sem CDN. O único JavaScript é o seletor de idioma no fim do `<body>`. Site novo não justifica introduzir toolchain.
 3. **Bilinguismo por atributo.** O português é a fonte da verdade (aparece sem JS e para os buscadores) e o inglês vive em `data-en`. Isso torna a tradução um contrato de par de arquivos dentro do mesmo HTML, e obriga a editar os dois lados juntos.
 4. **Validação como CI.** Não existe lint, build nem teste no repositório, então a checagem é feita por scripts em `/tmp/opencode/` (validador de certificações e testes com `jsdom`) e por conferência visual. Se um número aparece no site, existe um script que o confere.
@@ -139,12 +139,12 @@ Os dois arquivos descrevem a **mesma pessoa e o mesmo trabalho**, mas para públ
 | --- | --- | --- |
 | Onde fica | `github.com/DaFi-1` (profile README) | `https://dafi-1.github.io/DaFi-1/` (GitHub Pages) |
 | Leitor | Visitantes, recrutadores técnicos, quem avalia o portfólio | Recrutadores, pesquisadores CNPq e empregadores |
-| Finalidade | Catálogo do que **existe**: 101 projetos, 44 catalogados, 33 certificações, forks, ebooks, lixo | Documento formal, curto e sequencial, para ser lido do começo ao fim |
+| Finalidade | Catálogo do que **existe**: 109 projetos, 52 catalogados, 33 certificações, forks, ebooks, lixo | Documento formal, curto e sequencial, para ser lido do começo ao fim |
 | Estrutura | Uma linha de contadores + 17 abas `<details>` recolhíveis | 9 seções numeradas, sempre abertas |
 | Seções | 1 Skills, 2 Ebooks, 3 Certifications, 4 Social impact, 5 Framework, 6 Cybersecurity, 7 DevOps, 8 Backend, 9 systems, 10 FrontEnd, 11 GameDev, 12 Deep Learning, 13 Testing, 14 NeoVim, 15 Forks, 16 Trash, 17 Gaming-Diary | 1 Contato, 2 Resumo, 3 Experiência Profissional Freelance, 4 Contribuições para ONGs, 5 Certificações, 6 Projetos Pessoais, 7 Stacks, 8 Formação Acadêmica, 9 Idiomas |
 | Idioma dos rótulos | Inglês: `Skill`, `Course`, `Hours`, `Year`, `Stack`, `Completed` | Português: `Contato`, `Resumo`, `Certificações`, `Stacks` |
 | Texto do conteúdo | Nome do repositório, badges de stack, um emoji de status | Frases completas dizendo o que foi feito, com `<p class="title">` e listas com marcadores |
-| Contadores | `101` projetos e `33` certificações - `1130h` no cabeçalho; `44` catalogados na soma das abas | `Total de projetos: 101 projetos.` e `Total: 33 certificações - 1130h.` |
+| Contadores | `109` projetos e `33` certificações - `1130h` no cabeçalho; `52` catalogados na soma das abas | `Total de projetos: 109 projetos.` e `Total: 33 certificações - 1130h.` |
 | Contato | Só um link para o currículo no cabeçalho | GitHub e e-mail (sem Lattes; o link `lattes.cnpq.br` foi removido a pedido) |
 
 ### O que existe em cada um
@@ -179,7 +179,7 @@ Os dois arquivos descrevem a **mesma pessoa e o mesmo trabalho**, mas para públ
 - **Certificação nova:** jpg em `certification/<ano>/`, uma linha na tabela do ano correspondente no README e um item na seção 5 do currículo, mantendo a ordem decrescente de horas. Atualizar o subtítulo do ano, o `<summary>`, o cabeçalho e a linha de total do currículo. O texto do link no README é o **título em inglês**; o título em português vive só no currículo (ver "Títulos de certificação em inglês no README").
 - **Repo renomeado ou apagado:** atualizar os dois arquivos, verificando se o nome também aparece em `<b>` no currículo e no `title` dos links do README.
 - **Nova skill/tech:** entra nos dois (badges na aba Skills e item na seção 7 do currículo), com o mesmo nome de tecnologia.
-- **Nunca** introducir um número em um arquivo sem atualizar o número equivalente no outro (101, 44, 33, 1130h, 653h, 477h).
+- **Nunca** introducir um número em um arquivo sem atualizar o número equivalente no outro (109, 52, 33, 1130h, 653h, 477h).
 - **Conceito novo ou ideia nova** vai para "Registro de conceitos e ideias", e o que foi feito para "Histórico do trabalho". Não encerrar tarefa sem revisar as duas seções.
 
 ## Idiomas do currículo (`index.html`)
@@ -306,6 +306,20 @@ Não existe lint, build, teste ou CI no repositório (`package.json`, `Makefile`
 - O `README.md` é Markdown com HTML bruto: funciona no GitHub, mas tags precisam ser balanceadas e `&` escapado (`&amp;`) no link de `The Git & Github Bootcamp`.
 
 ## Histórico do trabalho
+
+### 2026-10-29 — inclusão dos repositórios públicos pendentes e sincronização
+
+Sessão para auditar repositórios públicos do GitHub (`DaFi-1`) e catalogar os que faltavam no README.
+1. **Auditoria da API do GitHub:** 46 repositórios públicos encontrados (incluindo o próprio repositório de perfil `DaFi-1`). 38 já estavam no README e 7 repositórios públicos não estavam catalogados.
+2. **Repositórios catalogados no `README.md`:**
+   - Aba **NeoVim** (5 projetos novos: `wallnvim`, `pomonvim`, `centmenu`, `blinkcpt`, `1000-SimpleThemesNvim`), total da aba atualizado de 5 para 10.
+   - Aba **systems** (1 projeto novo: `fimenu`), total da aba atualizado de 1 para 2.
+   - Aba **FrontEnd** (1 projeto novo: `DemoBuilderSiteCheck`), total da aba atualizado de 1 para 2.
+   - Total catalogado nas abas subiu de 45 para 52.
+   - Cabeçalho do README atualizado para 109 projetos (`Projects Overview - 109`).
+3. **Sincronização no `index.html`:**
+   - Seção 6 (Projetos Pessoais) atualizada nas duas versões (PT e `data-en` escapado) de 101 para 109 projetos. Total de elementos `data-en` mantido em 86.
+4. **Métricas vigentes atualizadas:** 109 projetos, 52 catalogados, 33 certificações (1130h), 86 elementos com `data-en`.
 
 ### 2026-09-26 — análise de partida e diretrizes do agente
 

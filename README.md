@@ -106,7 +106,7 @@
   </table>
 </details>
 
- 
+  
   <details id="ebooks">
   <summary><a href="#">Ebooks</a> <span style="font-size:12px; color:#666;">(9 projects)</span></summary>
   <p style="font-size: 11px; color: #666; margin: 4px 0 8px 0;">✅ Completed | ❌ In Development</p>
